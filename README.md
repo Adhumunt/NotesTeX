@@ -1,6 +1,6 @@
 # The NotesTeX Package
 
-> NotesTEX v1.0.  
+> NotesTeX v1.0.  
 > Created by Aditya Dhumuntarao.  
 > Date: September 18, 2017.  
 > E-mail comments and suggestions to adhumunt@gmail.com.  
@@ -11,7 +11,7 @@ _NotesTeX_ is a modification of the original Jhep journal format in order to sui
 ## Installation
 Installing just requires the following steps:
 
-1. **Download** the [zip archive](NoTeX.zip)
+1. **Download** the [zip archive](NoTeX.zip).
 2. **Build** the NotesTeX.tex file. This compile should work without a problem, and it should look like the pdf attached below.
 3. **Move** the NotesTeX.sty file where ever you need it, and let your new notes file call to it as provided in the example below.
 
@@ -20,7 +20,7 @@ Here is an example of a test page:
 
 ```latex
 \documentclass{article}
-\usepackage{/Path/to/package/jhepforstudents} %/Path/to/package should be replaced with package location
+\usepackage{/Path/to/package/NotesTeX} %/Path/to/package should be replaced with package location
 \usepackage{lipsum}
 
 \title{{\Huge Test Page Title}\\{\Large{Test Page Subtitle}}}
@@ -39,7 +39,7 @@ Here is an example of a test page:
 ```
 
 ## Details
-All the documentation of this package is given in jhepforstudents.pdf and if you have any questions feel free to contact me.
+All the documentation of this package is given in NotesTeX.pdf and if you have any questions feel free to contact me.
 
 
 ## License

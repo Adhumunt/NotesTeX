@@ -1,4 +1,4 @@
-PWD /Volumes/DATA/GitHub/LaTeX/NOTESTEX
+PWD /Volumes/DATA/GitHub/LaTeX/NOTESTEX/NoTeX
 INPUT /opt/local/etc/texmf/texmf.cnf
 INPUT /opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt
 INPUT NotesTeX.tex
@@ -400,10 +400,10 @@ INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmmib10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmbsy10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmbsy10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmbsy10.tfm
+INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmbx9.tfm
-INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmbx8.tfm
 INPUT /opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
 INPUT /opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd

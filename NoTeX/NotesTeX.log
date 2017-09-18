@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_1) (preloaded format=pdflatex 2017.7.6)  18 SEP 2017 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_1) (preloaded format=pdflatex 2017.7.6)  18 SEP 2017 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2192,35 +2192,40 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 22.
-Package marginnote Info: Margin note 3.2 is on absolute page 4
-(marginnote)              on input line 44.
-Package marginnote Info: right page because not two side mode on input line 44.
+ [1
+
+] [2]
+Package marginnote Info: Margin note 5.1 is on absolute page 5
+(marginnote)              on input line 46.
+Package marginnote Info: right page because not two side mode on input line 46.
 
 Package marginnote Info: xpos seems to be 101.92578pt,
-(marginnote)             \marginnoterightadjust ignored on input line 44.
+(marginnote)             \marginnoterightadjust ignored on input line 46.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[1
-
-]
-Package marginnote Info: Margin note 4.1 is on absolute page 5
-(marginnote)              on input line 90.
-Package marginnote Info: right page because not two side mode on input line 90.
+Package marginnote Info: Margin note 5.2 is on absolute page 6
+(marginnote)              on input line 92.
+Package marginnote Info: right page because not two side mode on input line 92.
 
 Package marginnote Info: xpos seems to be 353.28294pt,
-(marginnote)             \marginnoterightadjust ignored on input line 90.
- [2]
-Package marginnote Info: Margin note 5.1 is on absolute page 5
-(marginnote)              on input line 90.
-Package marginnote Info: right page because not two side mode on input line 90.
+(marginnote)             \marginnoterightadjust ignored on input line 92.
+Package marginnote Info: Margin note 5.3 is on absolute page 6
+(marginnote)              on input line 92.
+Package marginnote Info: right page because not two side mode on input line 92.
 
 Package marginnote Info: xpos seems to be 269.32474pt,
-(marginnote)             \marginnoterightadjust ignored on input line 90.
-
-Overfull \hbox (15.70206pt too wide) in paragraph at lines 91--102
+(marginnote)             \marginnoterightadjust ignored on input line 92.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 		\item \texttt
+                    {Margintable:} This environment requires the \texttt{$\b...
+[1]
+Overfull \hbox (15.70206pt too wide) in paragraph at lines 93--102
 \OMS/lmsy/m/n/10 n$\T1/lmtt/m/n/10 end{margintable} \T1/lmr/m/n/10 en-clos-ings
 . A ta-ble pack-age, such as \T1/lmtt/m/n/10 tabular\T1/lmr/m/n/10 , \T1/lmtt/m
 /n/10 tabulary\T1/lmr/m/n/10 , \T1/lmtt/m/n/10 tabularx,
@@ -2232,59 +2237,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-Package marginnote Info: Margin note 5.2 is on absolute page 6
-(marginnote)              on input line 147.
-Package marginnote Info: right page because not two side mode on input line 147
+Package marginnote Info: Margin note 6.1 is on absolute page 7
+(marginnote)              on input line 159.
+Package marginnote Info: right page because not two side mode on input line 159
 .
 Package marginnote Info: xpos seems to be 275.75677pt,
-(marginnote)             \marginnoterightadjust ignored on input line 147.
-Package marginnote Info: Margin note 5.3 is on absolute page 6
-(marginnote)              on input line 147.
-Package marginnote Info: right page because not two side mode on input line 147
+(marginnote)             \marginnoterightadjust ignored on input line 159.
+Package marginnote Info: Margin note 6.2 is on absolute page 7
+(marginnote)              on input line 159.
+Package marginnote Info: right page because not two side mode on input line 159
 .
 Package marginnote Info: xpos seems to be 465.29634pt,
-(marginnote)             \marginnoterightadjust ignored on input line 147.
-[3]
-LaTeX Font Info:    Try loading font information for U+euf on input line 185.
- (/opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
+(marginnote)             \marginnoterightadjust ignored on input line 159.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.160 	\end{proof}
+                   [2] [3]
+LaTeX Font Info:    Try loading font information for U+euf on input line 197.
+
+(/opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [4]
-Overfull \hbox (11.1004pt too wide) in paragraph at lines 216--216
+)
+Overfull \hbox (11.1004pt too wide) in paragraph at lines 228--228
 []\T1/lmtt/m/n/10 \titleformat{\part}[hang]{{\thispagestyle{plain}}\Huge\bfseri
 es}{\marginnote{ 
  []
 
 
-Overfull \hbox (37.35033pt too wide) in paragraph at lines 219--219
+Overfull \hbox (37.35033pt too wide) in paragraph at lines 231--231
 []   \T1/lmtt/m/n/10 colframe=black!75!white,center title,fonttitle=\bfseries\n
 ormalsize,title=PART,[] 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 
-Overfull \hbox (149.25pt too wide) in paragraph at lines 233--259
+Overfull \hbox (149.25pt too wide) in paragraph at lines 245--271
 $[]$
  []
 
 [6]
-Package marginnote Info: Margin note 9.1 is on absolute page 9
-(marginnote)              on input line 262.
-Package marginnote Info: right page because not two side mode on input line 262
+Package marginnote Info: Margin note 11.1 is on absolute page 11
+(marginnote)              on input line 274.
+Package marginnote Info: right page because not two side mode on input line 274
 .
 Package marginnote Info: xpos seems to be 101.92578pt,
-(marginnote)             \marginnoterightadjust ignored on input line 262.
+(marginnote)             \marginnoterightadjust ignored on input line 274.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 276.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 288.
 
-Overfull \hbox (6.23468pt too wide) in paragraph at lines 293--294
+Overfull \hbox (6.23468pt too wide) in paragraph at lines 305--306
 \T1/lmr/m/n/10 and $\OMS/lmsy/m/n/10 n$\T1/lmtt/m/n/10 subsectionmark \T1/lmr/m
 /n/10 are set up so that the \T1/lmtt/m/n/10 section \T1/lmr/m/n/10 ap-pears on
  the left and all \T1/lmtt/m/n/10 subsections
@@ -2294,25 +2305,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.294 
+l.306 
        [1]pdfTeX warning (ext4): destination with the same identifier (name{pag
 e.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.304 \end{document}
+l.316 \end{document}
                      [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 304.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 304.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./NotesTeX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 304.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 304.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `NotesTeX.out' has not changed.
 (rerunfilecheck)             Checksum: 43318B8E6375FED6956946C958EE3070;892.
  ) 
 Here is how much of TeX's memory you used:
  32511 strings out of 494108
- 628116 string characters out of 6155656
- 820345 words of memory out of 5000000
+ 628115 string characters out of 6155656
+ 820346 words of memory out of 5000000
  35316 multiletter control sequences out of 15000+600000
  167159 words of font info for 132 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
@@ -2340,9 +2351,9 @@ al/share/texmf-texlive/fonts/type1/public/lm/lmtcsc10.pfb></opt/local/share/tex
 mf-texlive/fonts/type1/public/lm/lmtk10.pfb></opt/local/share/texmf-texlive/fon
 ts/type1/public/lm/lmtt10.pfb></opt/local/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb>
-Output written on NotesTeX.pdf (10 pages, 528933 bytes).
+Output written on NotesTeX.pdf (12 pages, 531729 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
+ 286 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,13 +2,13 @@
 \contentsline {section}{\numberline {1}Motivation}{1}{section.1}
 \contentsline {section}{\numberline {2}License}{1}{section.2}
 \contentsline {section}{\numberline {3}Required Packages}{1}{section.3}
-\contentsline {part}{II\hspace {1em}Modifications}{2}{part.2}
-\contentsline {section}{\numberline {4}Features}{2}{section.4}
-\contentsline {subsection}{\numberline {4.1}Margins}{2}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Why use both \texttt {marginnotes} and \texttt {sidenotes}?}{3}{subsubsection.4.1.1}
-\contentsline {subsection}{\numberline {4.2}Special Environments}{3}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ Shortcuts}{4}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}The Part Environment}{5}{subsection.4.4}
+\contentsline {part}{II\hspace {1em}Modifications}{1}{part.2}
+\contentsline {section}{\numberline {4}Features}{1}{section.4}
+\contentsline {subsection}{\numberline {4.1}Margins}{1}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Why use both \texttt {marginnotes} and \texttt {sidenotes}?}{2}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Special Environments}{2}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ Shortcuts}{3}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}The Part Environment}{4}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Fullpage Environment}{6}{subsection.4.5}
 \contentsline {part}{III\hspace {1em}Page Formatting}{1}{part.3}
 \contentsline {section}{\numberline {5}Page Dimensions}{1}{section.5}
