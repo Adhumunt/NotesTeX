@@ -1,4 +1,4 @@
-README for the NotesTEX Package
+# README for the NotesTEX Package
 
 NotesTEX 1.0
 Created by Aditya Dhumuntarao
