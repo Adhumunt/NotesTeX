@@ -1,0 +1,304 @@
+\documentclass[10pt]{article}
+\pdfoutput=1 
+\usepackage{NotesTeX,lipsum}
+
+\title{\begin{center}{\Huge \textit{NotesTeX}}\\{{\itshape An All-In-One Notes Package For Students}}\end{center}}
+\author{Aditya Dhumuntarao\footnote{\href{https://geodesick.com/}{\textit{My Personal Website}}}}
+
+
+\affiliation{
+DAMTP, University of Cambridge\\
+Perimeter Institute of Theoretical Physics\\
+University of Minnesota
+}
+
+\emailAdd{adhumunt@gmail.com}
+
+\begin{document}
+	\maketitle
+	\flushbottom
+	\newpage
+	\pagestyle{fancyjhepmod}
+	\part{Introduction}	
+	\section{Motivation}\label{Sec:Motivation}
+	During my year as a Part III student at Cambridge, I realized that my theoretical physics professors, namely David Tong and David Skinner, would use the Jhep format to typeset the notes for their classes. As the year went on, I started typesetting my notes during class and realized that the Jhep format, while great for publications and lecture notes in general, was lacking a few small but useful features.\sn{For instance, sidenotes.} While the Memoir class and the Tufte style packages provide extensive functionality, much of which I was inspired by, it was difficult to setup, use, and -- especially -- modify them. These packages did more than I needed them to, and eventually these small gripes pushed me to start modifying the Jhep package to better suit the needs of a student. sdf
+
+	The result of this year long work, from 2016-2017, is the package now known as \textit{Jhep for Students.} The purpose of this package was to consolidate all these changes that I slowly incorporated into the original Jhep format, and to provide stable support for commonly used physics and mathematics environments. I sincerely hope that you enjoy the package!
+	
+	\section{License}\label{Sec:License}
+	Adity Dhumuntarao does not own the copyright to the original package, \texttt{jheppub.sty}. All modification have been approved by the Jhep Editorial committee, and permission has been attributed to Aditya to distribute freely the modified version of \texttt{jheppub.sty}, known as \texttt{jhepforstudents.sty}.
+
+	This work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is in 
+	\begin{center}
+		\href{http://www.latex-project.org/lppl.txt}{http://www.latex-project.org/lppl.txt}
+	\end{center}
+	and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later. The Current Maintainer of this work is Aditya Dhumuntarao.\footnote{Please contact me at my email, ad837@cam.ac.uk, if you have any questions or comments.}
+
+	\section{Required Packages}\label{Sec: Required Packages}
+	For \textit{Jhep for students,} the following packages are required
+	\begin{center}
+		\texttt{marginnote, sidenotes, fancyhdr, titlesec, geometry, and tcolorbox.}
+	\end{center}
+	The roles of each of these packages will be discussed in Part~\ref{Part:Modification}. However, for a brief summary, the \texttt{marginnote}, \texttt{sidenote}, \texttt{titlesec}, and \texttt{tcolorbox} packages are used in creating the \texttt{$\backslash$part} environment, the package \texttt{geometry} is used globally to set the page width, page height, and margin width, and finally, \texttt{fancyhdr}, which is overridden on the title page, the contents page, and the \texttt{$\backslash$part} page, sets the header for the body.
+
+	\part{Modifications}\label{Part:Modification}
+	\section{Features}\label{Sub:Features}
+	While \textit{Jhep for Students} inherits most of the Jhep format -- sections, subsections, subsubsections, title page, contents page, and bibliography presets -- there are significant departures from the original format and underlying features. The central focus of this package was to significantly expand the use of the margin in order to include; simple marginnotes, numbered sidenotes, marginfigures, and margintables. The secondary motivation was to include a list of preloaded packages that any physics or mathematics students would require while typesetting notes. Lastly, there are a few stylistic improvements that allow for better readability.\\
+
+	\noindent \textit{Jhep for Students} includes the following:
+	\begin{enumerate}
+		\item Margins.
+		\item Special environments for proofs, theorems, definitions, examples, claims, remarks, exercises, lemmas, and propositions.
+		\item \TeX\ shortcuts for various math scripts such as, vector bold math, mathbb, mathfrak, and mathcal.
+		\item Stylized support for the part environment.
+		\item A fullpage environment that spans across the text width and the margin for longer equations and horizontal figures.
+	\end{enumerate}
+	Each of these will be discussed in the following subsections.
+
+	\subsection{Margins}%
+	\textit{Jhep for Students} inherits all the margin commands that are used by \texttt{sidenote} and \texttt{marginnote}, and two additional pre-configured commands known as \texttt{$\backslash$mn} and \texttt{$\backslash$sn}. The relevant commands, and the packages they belong to, are
+	\begin{marginfigure}
+		\begin{center}
+			\begin{tikzpicture}
+				\draw[black,thick] (-1,-1) -- (-.06,-.06);
+				\draw[black,thick] (.06,.06) -- (1,1);
+				\draw[black,thick] (-1,1) -- (1,-1);
+				\filldraw[black] (-1,-1) circle (2pt) node[anchor=north] {2};
+				\filldraw[black] (-1,1) circle (2pt) node[anchor=south] {1};
+				\filldraw[black] (1,-1) circle (2pt) node[anchor=north] {3};
+				\filldraw[black] (1,1) circle (2pt) node[anchor=south] {4};
+			\end{tikzpicture}
+		\end{center}
+		\caption{Marginfigure: Tikz}
+	\end{marginfigure}%
+	\begin{center}
+		\begin{multicols}{2}
+		\noindent\texttt{$\backslash$marginfigure~[sidenote]\\
+		$\backslash$sidenote~[sidenote]\\
+		$\backslash$marginnote~[marginnote]\\
+		$\backslash$margintable~[sidenote]\\
+		$\backslash$sn~[Jhep for Students]\\
+		$\backslash$mn~[Jhep for Students]\\
+		}
+	\end{multicols}
+	\end{center}
+	\begin{enumerate}
+		\item \texttt{Marginfigure:} This environment requires the \texttt{$\backslash$begin\{marginfigure\}} {$\cdots$}\newline\texttt{$\backslash$end\{marginfigure\}} enclosings. The \texttt{caption} package is needed to caption the figure.
+		\item \texttt{Sidenote:} This is how a \texttt{$\backslash$sidenote} behaves.\sidenote{Numbered, 10pt.}
+		\item \texttt{Sn:} This is how a \texttt{$\backslash$sn} behaves.\sn{Numbered, footnotesize.}
+		\item \texttt{Marginnote:} This is how a \texttt{$\backslash$marginnote} behaves.\marginnote{Not numbered, 10pt.}
+		\item \texttt{Mn:} This is how a \texttt{$\backslash$mn} behaves.\mn{Numbered, footnotesize.}
+		\item \texttt{Margintable:} This environment requires the \texttt{$\backslash$begin\{margintable\}} {$\cdots$}\newline\texttt{$\backslash$end\{margintable\}} enclosings. A table package, such as \texttt{tabular}, \texttt{tabulary}, \texttt{tabularx,} or \texttt{tabu} is required. The \texttt{caption} package is needed to caption the table.
+		\begin{margintable}
+			\begin{tabularx}{\marginparwidth}{|X|X|}
+			\hline
+			\textit{Jhep} & \textit{for}\\
+			\hline
+			\textit{Students} & \textbf{rocks!}\\
+			\hline
+			\end{tabularx}
+			\caption{Margintable}
+		\end{margintable}
+	\end{enumerate}
+	\subsubsection{Why use both \texttt{marginnotes} and \texttt{sidenotes}?}
+	Quite simply, \texttt{marginnotes} overlap each other if they are too close. This means that figures, and tables can overlap by just using \texttt{marginnotes}. This is why \texttt{sidenotes} is so useful as it not only numbers all side notes, but also dynamically aligns all side notes, figures, and tables.\\
+
+
+	\noindent So clearly, \texttt{sidenotes} must be better right? There are a few places where \texttt{sidenotes} fails too however. For instance, \texttt{sidenotes} cannot be used in equations, \texttt{multicols}, and in the \texttt{proof}\sn{See \ref{Sub:Special} and \ref{Sub: Fullpage} for more details.} environment.
+
+
+
+
+	
+
+
+	\subsection{Special Environments}\label{Sub:Special}
+	All special environments are defined by
+	\begin{center}
+	\texttt{$\backslash$begin\{environment\}}\\
+	$\cdots$\\
+	\texttt{$\backslash$end\{environment\}}
+	\end{center}
+	and most have been modified ostensibly from the original \texttt{amsthm} presets. Each environment, with the exception of the exercise environment, have been modified by the \texttt{tcolorbox} package in order to set these apart from the rest of the text. The counting for \texttt{theorems} and \texttt{lemmas} is distinct from the counting for \texttt{definitions}.
+	\begin{theorem}
+		The theorem environment ...
+
+	\end{theorem}
+	\begin{lemma}
+		Here is a generic lemma.
+	\end{lemma}
+	\begin{proof}
+		The proof environment is distinct from the rest of the \texttt{amsthm} objects. The blue line differentiates the \texttt{proof} environment from the rest of the text as proofs, in the author's opinion, deserve extra attention beyond including a QED symbol. The code attributed to this environment is
+		\begin{verbatim}
+			\tcolorboxenvironment{proof}{
+			  boxrule=0pt,
+			  boxsep=0pt,
+			  blanker,
+			  borderline west={2pt}{0pt}{NavyBlue!80!white},
+			  before skip=10pt,
+			  after skip=10pt,
+			  left=12pt,
+			  right=12pt,
+			  breakable,
+			}
+		\end{verbatim}
+		The \texttt{breakable} should allow the \texttt{proof} environment to span multiple pages. If one wishes to change the color, simply modify the line which states \texttt{borderline west=\{1pt\}\{0pt\}\{blue\}}. The first numeric value dictates the width of the line, the second dictates how close it is away from the \textit{left} margin, while the last argument obviously dictates the color. This code could also be used to change any of the other \texttt{amsthm} environments.\\
+
+		There is one issue with this however.\marginnote{Not a major one but frustrating nonetheless.} Since we are using a \texttt{tcolorbox}, this proof environment is incompatible with \texttt{$\backslash$sn} and \texttt{$\backslash$sidenote}, as it results in a \textbf{Float(s) Error}. However, this environment is compatible with \texttt{$\backslash$mn} and \texttt{$\backslash$marginnote} thankfully.\mn{As one can see right here.}
+	\end{proof}
+	\begin{definition}
+		Here is a generic definition.
+	\end{definition}
+	\begin{example}
+		Here is a generic example.
+	\end{example}	
+	\begin{remark}
+		Here is a generic remark.
+	\end{remark}
+	\begin{exercise}
+		Here is a generic exercise.
+	\end{exercise}
+	
+	\subsection{\TeX\ Shortcuts}
+	\textit{Jhep for Students} comes built in with a minimal set of keyboard shortcuts for a few special characters. All of these shortcuts can be found in \texttt{jhepforstudents.sty} just under
+	\begin{verbatim}
+	% ----------------------------------------------------------------------
+	%           User Created Commands
+	% ----------------------------------------------------------------------
+	...
+	\end{verbatim}
+	If one has their own macros,\sidenote{\footnotesize Most people have their own shortcuts for commonly used mathematics, such as derivatives or integrals. For those looking for some physics shortcuts, the \textbf{supremely excellent} physics package (automatically included in \textit{Jhep for Students}) has possible everything that one can imagine.} then simply add it under this area. In \textit{Jhep for Students}, the following simplifications/shortcuts are available:
+	\begin{enumerate}
+		\item Vector Bold Math: \texttt{$\backslash$mathbf\{$\cdot$\}} $\longrightarrow$ \texttt{$\backslash$mb$\cdot$}. So for instance \texttt{$\backslash$mathbf\{a\}} becomes \texttt{$\backslash$mba}. This works for both lower and uppercase alphabets.
+		\begin{center}
+			$\bfa\bfb\bfc\bfd\bfe\bff\bfg\bfh\bfi\bfj\bfk\bfl\bfm\bfn\bfo\bfp\bfq\bfr\bfs\bft\bfu\bfv\bfw\bfx\bfy\bfz$\\
+			$\bfA\bfB\bfC\bfD\bfE\bfF\bfG\bfH\bfI\bfJ\bfK\bfL\bfM\bfN\bfO\bfP\bfQ\bfR\bfS\bfT\bfU\bfV\bfW\bfX\bfY\bfZ$
+		\end{center}
+		If one does not want to always be limited to a \texttt{\$\$} or \texttt{equation} environment, then the shortcut \texttt{\{$\backslash$bf $\cdot$\}} $\longrightarrow$ \texttt{$\backslash$bf$\cdot$} comes to the rescue. In this case, \texttt{\{$\backslash$bf a\}} becomes \texttt{$\backslash$bfa} producing the output
+		\begin{center}
+			$\bfa\bfb\bfc\bfd\bfe\bff\bfg\bfh\bfi\bfj\bfk\bfl\bfm\bfn\bfo\bfp\bfq\bfr\bfs\bft\bfu\bfv\bfw\bfx\bfy\bfz$\\
+			$\bfA\bfB\bfC\bfD\bfE\bfF\bfG\bfH\bfI\bfJ\bfK\bfL\bfM\bfN\bfO\bfP\bfQ\bfR\bfS\bfT\bfU\bfV\bfW\bfX\bfY\bfZ$
+		\end{center}
+		which is basically identical to the \texttt{$\backslash$mathbf\{$\cdot$\}} output.
+		\item \texttt{Mathfrak:} The \texttt{$\backslash$mathfrak} environment is quite similar to the Vector Bold Math in the shortcut argument, \texttt{$\backslash$mathfrak\{$\cdot$\}} $\longrightarrow$ \texttt{$\backslash$mf$\cdot$}. This works for both upper and lower case producing
+		\begin{center}
+			$\mfa\mfb\mfc\mfd\mfe\mff\mfg\mfh\mfi\mfj\mfk\mfl\mfm\mfn\mfo\mfp\mfq\mfr\mfs\mft\mfu\mfv\mfw\mfx\mfy\mfz$\\
+			$\mfA\mfB\mfC\mfD\mfE\mfF\mfG\mfH\mfI\mfJ\mfK\mfL\mfM\mfN\mfO\mfP\mfQ\mfR\mfS\mfT\mfU\mfV\mfW\mfX\mfY\mfZ$
+		\end{center}
+		\item \texttt{Mathbb}: All \texttt{$\backslash$mathbb\{$\cdot$\}} objects are turned into \texttt{$\backslash$bb\{$\cdot$\}}. This only works for uppercase alphabet.
+		\begin{equation*}
+			\bbA\bbB\bbC\bbD\bbE\bbF\bbG\bbH\bbI\bbJ\bbK\bbL\bbM\bbN\bbO\bbP\bbQ\bbR\bbS\bbT\bbU\bbV\bbW\bbX\bbY\bbZ
+		\end{equation*}
+		\item \texttt{Mathcal:} All \texttt{$\backslash$mathcal\{$\cdot$\}} objects are turned into \texttt{$\backslash$mc\{$\cdot$\}}. This only works for uppercase alphabet.
+		\begin{equation*}
+			\mcA\mcB\mcC\mcD\mcE\mcF\mcG\mcH\mcI\mcJ\mcK\mcL\mcM\mcN\mcO\mcP\mcQ\mcR\mcS\mcT\mcU\mcV\mcW\mcX\mcY\mcZ
+		\end{equation*}
+	\end{enumerate}
+	The last shortcut is \texttt{$\backslash$half} which is short for \texttt{$\backslash$frac\{1\}\{2\}} producing an inline $\half$ and a math-mode
+	\begin{equation*}
+		\half.
+	\end{equation*}
+
+
+
+	\subsection{The Part Environment}
+	In the original Jhep format, the \texttt{$\backslash$part} environment is not special and is set to the default given by the article class. In \textit{Jhep for Students}, the \texttt{part} environment produces a
+
+	{{\centering
+		\begin{tcolorbox}[width=\marginparwidth,height=\marginparwidth/2,colback=black!75!white,colframe=black!75!white,center title,fonttitle=\bfseries\normalsize,title=PART,text fill]
+		  \begin{center}
+		  {\color{white}\Huge\bfseries\#}
+		  \end{center}
+		\end{tcolorbox}
+	}}
+	\noindent with the code
+	\begin{verbatim}
+		\titleformat{\part}[hang]{{\thispagestyle{plain}}\Huge\bfseries}{\marginnote{
+			\begin{tcolorbox}
+			[width=\marginparwidth,height=\marginparwidth/2,colback=black!75!white,
+			   colframe=black!75!white,center title,fonttitle=\bfseries\normalsize,title=PART,
+			   text fill]
+
+			  \begin{center}
+			  	{\color{white}\thepart}
+			  \end{center}
+
+			\end{tcolorbox}
+		}[-1.25in]}{0pt}{\Huge\bfseries}
+	\end{verbatim}
+	This combines the \texttt{titlesec} and the \texttt{tcolorbox} packages, placing the title of the \texttt{$\backslash$part} on the left hand side, and the \texttt{$\backslash$part} number in the margin. It is recommended that one do not mess with this, other than changing the colors given by \texttt{colback} and \texttt{colframe}.
+	\newpage
+
+	\subsection{Fullpage Environment}\label{Sub: Fullpage}
+	\begin{fullpage}
+		The \texttt{fullpage} environment is defined by
+		\begin{center}
+			\texttt{$\backslash$begin\{fullpage\}}\\
+			$\cdots$\\
+			\texttt{$\backslash$end\{fullpage\}}
+		\end{center}
+		with the with of the \texttt{fullpage} environment given by \texttt{$\backslash$textwidth}+\texttt{$\backslash$marginparsep}+\texttt{$\backslash$marginparwidth}.\\
+
+		There are some clear benefits of having use of the full page at times. Suppose that one wants to place a figure that cannot fit into the margins, or if an equation is quite long and it bleeds into the margin, then the \texttt{fullpage} environment can both clearly separate these from the surrounding text and allot for the dimensions without hassle. The code in \texttt{jhepforstudents.sty} that is responsible for the \texttt{fullpage} environment is given by
+		\begin{verbatim}
+			\newenvironment{fullpage}{
+    		{\smallskip\noindent
+    		\begin{minipage}{\textwidth+\marginparwidth+\marginparsep}\hrule\smallskip\smallskip}
+    		{\smallskip\smallskip\hrule\end{minipage}\vspace{.1in}
+    		}
+		\end{verbatim}
+		If one do not like the lines at the beginning and end of the \texttt{fullpage} environment, simply remove all the \texttt{$\backslash$hrule} that is in the code. Similarly, it is possible to change the vertical spacing after the \texttt{fullpage} is over, by modifying the \texttt{$\backslash$vspace\{\}} argument. 
+		\begin{multicols}{2}
+			A major benefit of having a \texttt{fullpage} is the ability to use \texttt{multicols} to its fullest extent. For example, these empty sentences are an example of how effective the \texttt{multicols} package can be inside of the \texttt{fullpage} environment. 
+
+			This would be especially useful for formatting exercises in multiple columns and it makes the text distinct from the rest of the \texttt{fullpage} environment. The author has run out of things to say.
+		\end{multicols}
+		There are a few issues with the \texttt{fullpage} however. Since the \texttt{fullpage} environment uses a \texttt{minipage}, and minipages do not work over multiple pages, one will need a new \texttt{fullpage} per page. \textbf{Also, please note \texttt{marginnote}, or \texttt{sidenotes} cannot be used in this environment.} Footnotes, on the other hand, can be used.\footnote{That is if one don't mind it looking like this.}
+	\end{fullpage}
+	While the fullpage environment is nice for longer formula which often break through the page width, its often more convienent to ignore the formula break. Another suggestion would be to allow the equation to align left. If neither of these suggestions are to your liking, the next section talks about the page formatting and there you can learn how to modify the page width and height, along with the text width and height to your liking.
+
+	\newpage
+
+	\part{Page Formatting}
+	For those wanting to adjust the margin sizes, or the \texttt{fancyhdr} layout, there are a few comments that could be made here.
+	\section{Page Dimensions}
+	\textit{Jhep for Students} relies on the \texttt{geometry} package to set its dimensions. The associated code is the deceptively simple chunk of code given by
+	\begin{verbatim}
+		\geometry{paperheight=845pt,paperwidth=597pt,
+          marginparsep=.02\paperwidth,marginparwidth=.23\paperwidth,
+          hoffset=-1in, voffset=-1in, headheight=.02\paperheight,
+          headsep=.03\paperheight,footskip=0.7\paperheight,
+          textheight=.82\paperheight,textwidth=.66\paperwidth}.
+	\end{verbatim}
+	Ignoring most of the arguments, the \texttt{$\backslash$paperheight} and \texttt{$\backslash$paperwidth} are set to be the standard $8\times11$ inches but in \texttt{pt} format instead. All other options, with the exception of \texttt{$\backslash$hoffset} and \texttt{$\backslash$voffset}, inherit fractions of \texttt{$\backslash$paperheight} and \texttt{$\backslash$paperwidth}, the most important being \texttt{$\backslash$marginparwidth}. Increasing \texttt{$\backslash$marginparwidth} causes the margin to bleed off of the right side of the page. In order to increase, one \textbf{must} decrease the \texttt{$\backslash$textwidth} accordingly.
+
+
+	\section{\texttt{Fancyhdr} Layout}
+	As mentioned before, \texttt{fancyhdr} is overridden on the title page, the contents page, and the \texttt{$\backslash$part} page, and sets the header for all other pages through the code
+	\begin{verbatim}
+	\pagestyle{fancy}%
+	\newlength{\offset}%
+	\setlength{\offset}{\marginparwidth + \marginparsep}%
+	\renewcommand{\sectionmark}[1]{\markboth{#1}{}}%
+	\renewcommand{\subsectionmark}[1]{\markright{#1}{}}%
+
+	\fancypagestyle{fancyjhepmod}{%
+	  \fancyhf{}%
+	  \fancyheadoffset[rh]{\offset}%
+	  \renewcommand{\headrulewidth}{0pt}%
+	  \fancyhead[L]{\textsc{\leftmark}}%
+	  \fancyhead[R]{\footnotesize \textit{\rightmark}~~~~ \thepage}%
+	}%
+	\end{verbatim}
+	The header style is set so that it spans the width of the entire page as opposed to just the \texttt{$\backslash$textwidth} through the line \texttt{$\backslash$fancyheadoffset[rh]\{$\backslash$myoddoffset\}}. The \texttt{$\backslash$sectionmark} and \texttt{$\backslash$subsectionmark} are set up so that the \texttt{section} appears on the left and all \texttt{subsections} appear on the right along with the page number, and this is given in the last two lines of code.
+
+
+
+
+
+
+
+
+
+
+\end{document}
