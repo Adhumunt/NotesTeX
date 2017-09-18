@@ -43,4 +43,4 @@ All the documentation of this package is given in jhepforstudents.pdf and if you
 
 
 ## License
-This material is subject ot the LaTeX Project Public License. See http://www.ctan.org/tex-archive/help/Catalogue/licenses.lppl.html for the details of the license.
+This material is subject ot the [LaTeX Project Public License](LICENSE).
