@@ -11,7 +11,7 @@ _NotesTeX_ is a modification of the original Jhep journal format in order to sui
 ## Installation
 Installing just requires the following steps:
 
-1. **Download** the [zip archive](https://github.com/Adhumunt/NotesTeX/XXX)
+1. **Download** the [zip archive](NoTeX.zip)
 2. **Build** the NotesTeX.tex file. This compile should work without a problem, and it should look like the pdf attached below.
 3. **Move** the NotesTeX.sty file where ever you need it, and let your new notes file call to it as provided in the example below.
 
