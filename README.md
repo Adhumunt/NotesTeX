@@ -1,6 +1,8 @@
 # The NotesTeX Package
 NotesTEX v1.0
+
 Created by Aditya Dhumuntarao
+
 Date: September 18, 2017
 
 E-mail comments and suggestions to adhumunt@gmail.com
