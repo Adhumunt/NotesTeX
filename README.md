@@ -1,9 +1,10 @@
 # The NotesTeX Package
+---
 > NotesTEX v1.0.  
 > Created by Aditya Dhumuntarao.  
 > Date: September 18, 2017.  
 > E-mail comments and suggestions to adhumunt@gmail.com.  
-
+---
 This material is subject ot the LaTeX Project Public License. See http://www.ctan.org/tex-archive/help/Catalogue/licenses.lppl.html for the details of the liscence.
 
 _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. 
