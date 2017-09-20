@@ -41,7 +41,7 @@ Here is an example of a test page:
 ```
 
 ## Details
-All the documentation of this package is given in NotesTeX.pdf and if you have any questions feel free to contact me.
+All the documentation of this package is given in [NotesTeX.pdf](NoTeX/NotesTeX.pdf) and if you have any questions feel free to contact me.
 
 
 ## License
