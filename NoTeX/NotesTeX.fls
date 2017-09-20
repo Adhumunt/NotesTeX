@@ -400,10 +400,12 @@ INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmmib10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmbsy10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmbsy10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/lmbsy10.tfm
-INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmbx9.tfm
+INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmcsc10.tfm
+INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmtk10.tfm
+INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmtti10.tfm
 INPUT /opt/local/share/texmf-texlive/fonts/tfm/public/lm/ec-lmbx8.tfm
 INPUT /opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
 INPUT /opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
@@ -448,4 +450,5 @@ INPUT /opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy10.pfb
 INPUT /opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtcsc10.pfb
 INPUT /opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtk10.pfb
 INPUT /opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtt10.pfb
+INPUT /opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtti10.pfb
 INPUT /opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb

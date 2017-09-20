@@ -24,15 +24,7 @@ University of Minnesota
 	During my year as a Part III student at Cambridge, I realized that my theoretical physics professors, namely David Tong and David Skinner, would use the Jhep format to typeset the notes for their classes. As the year went on, I started typesetting my notes during class and realized that the Jhep format, while great for publications and lecture notes in general, was lacking a few small but useful features.\sn{For instance, sidenotes.} While the Memoir class and the Tufte style packages provide extensive functionality, much of which I was inspired by, it was difficult to setup, use, and -- especially -- modify them. These packages did more than I needed them to, and eventually these small gripes pushed me to start modifying the Jhep package to better suit the needs of a student. sdf
 
 	The result of this year long work, from 2016-2017, is the package now known as \textit{NotesTeX.} The purpose of this package was to consolidate all these changes that I slowly incorporated into the original Jhep format, and to provide stable support for commonly used physics and mathematics environments. I sincerely hope that you enjoy the package!
-	
-	\section{License}\label{Sec:License}
-	Adity Dhumuntarao does not own the copyright to the original package, \texttt{jheppub.sty}. All modification have been approved by the Jhep Editorial committee, and permission has been attributed to Aditya to distribute freely the modified version of \texttt{jheppub.sty}, known as \texttt{NotesTeX.sty}.
 
-	This work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is in 
-	\begin{center}
-		\href{http://www.latex-project.org/lppl.txt}{http://www.latex-project.org/lppl.txt}
-	\end{center}
-	and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later. The Current Maintainer of this work is Aditya Dhumuntarao.\footnote{Please contact me at my email, ad837@cam.ac.uk, if you have any questions or comments.}
 
 	\section{Required Packages}\label{Sec: Required Packages}
 	For \textit{NotesTeX,} the following packages are required
@@ -40,6 +32,11 @@ University of Minnesota
 		\texttt{marginnote, sidenotes, fancyhdr, titlesec, geometry, and tcolorbox.}
 	\end{center}
 	The roles of each of these packages will be discussed in Part~\ref{Part:Modification}. However, for a brief summary, the \texttt{marginnote}, \texttt{sidenote}, \texttt{titlesec}, and \texttt{tcolorbox} packages are used in creating the \texttt{$\backslash$part} environment, the package \texttt{geometry} is used globally to set the page width, page height, and margin width, and finally, \texttt{fancyhdr}, which is overridden on the title page, the contents page, and the \texttt{$\backslash$part} page, sets the header for the body.
+
+	\section{License}\label{Sec:License}
+	Aditya Dhumuntarao does not own the copyright to the original package, \texttt{jheppub.sty}. All modification have been approved by the Jhep Editorial committee, and permission has been attributed to Aditya to distribute freely the modified version of \texttt{jheppub.sty}, known as \texttt{NotesTeX.sty}.
+
+	This work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is found \href{http://www.latex-project.org/lppl.txt}{here}, and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later. The current maintainer of this work is Aditya Dhumuntarao.\footnote{Please contact me at my email, ad837@cam.ac.uk, if you have any questions or comments.}
 
 	\newpage
 
@@ -50,9 +47,9 @@ University of Minnesota
 	\noindent \textit{NotesTeX} includes the following:
 	\begin{enumerate}
 		\item Margins.
-		\item Special environments for proofs, theorems, definitions, examples, claims, remarks, exercises, lemmas, and propositions.
+		\item Special environments for theorems, lemmas, proofs, definitions, examples, remarks, and exercises.
 		\item \TeX\ shortcuts for various math scripts such as, vector bold math, mathbb, mathfrak, and mathcal.
-		\item Stylized support for the part environment.
+		\item Stylized support for the \texttt{part} environment.
 		\item A fullpage environment that spans across the text width and the margin for longer equations and horizontal figures.
 	\end{enumerate}
 	Each of these will be discussed in the following subsections.
@@ -86,11 +83,11 @@ University of Minnesota
 	\end{center}
 	\begin{enumerate}
 		\item \texttt{Marginfigure:} This environment requires the \texttt{$\backslash$begin\{marginfigure\}} {$\cdots$}\newline\texttt{$\backslash$end\{marginfigure\}} enclosings. The \texttt{caption} package is needed to caption the figure.
-		\item \texttt{Sidenote:} This is how a \texttt{$\backslash$sidenote} behaves.\sidenote{Numbered, 10pt.}
-		\item \texttt{Sn:} This is how a \texttt{$\backslash$sn} behaves.\sn{Numbered, footnotesize.}
-		\item \texttt{Marginnote:} This is how a \texttt{$\backslash$marginnote} behaves.\marginnote{Not numbered, 10pt.}
-		\item \texttt{Mn:} This is how a \texttt{$\backslash$mn} behaves.\mn{Numbered, footnotesize.}
-		\item \texttt{Margintable:} This environment requires the \texttt{$\backslash$begin\{margintable\}} {$\cdots$}\newline\texttt{$\backslash$end\{margintable\}} enclosings. A table package, such as \texttt{tabular}, \texttt{tabulary}, \texttt{tabularx,} or \texttt{tabu} is required. The \texttt{caption} package is needed to caption the table.
+		\item \texttt{Sidenote:} This is how a \texttt{$\backslash$sidenote\{...\}} behaves.\sidenote{Numbered, 10pt.}
+		\item \texttt{Sn:} This is how a \texttt{$\backslash$sn\{...\}} behaves.\sn{Numbered, footnotesize.}
+		\item \texttt{Marginnote:} This is how a \texttt{$\backslash$marginnote\{...\}} behaves.\marginnote{Not numbered, 10pt.}
+		\item \texttt{Mn:} This is how a \texttt{$\backslash$mn\{...\}} behaves.\mn{Numbered, footnotesize.}
+		\item \texttt{Margintable:} This environment requires the \texttt{$\backslash$begin\{margintable\}} {$\cdots$}\newline\texttt{$\backslash$end\{margintable\}} enclosings. A table package, such as \texttt{tabular}, \texttt{tabulary}, \texttt{tabu}, or \texttt{tabularx} is required. The \texttt{caption} package is needed to caption the table.
 		\begin{margintable}
 			\begin{tabularx}{\marginparwidth}{|X|X|}
 			\hline
@@ -104,22 +101,38 @@ University of Minnesota
 	Quite simply, \texttt{marginnotes} overlap each other if they are too close. This means that figures, and tables can overlap by just using \texttt{marginnotes}. This is why \texttt{sidenotes} is so useful as it not only numbers all side notes, but also dynamically aligns all side notes, figures, and tables.\\
 
 
-	\noindent So clearly, \texttt{sidenotes} must be better right? There are a few places where \texttt{sidenotes} fails too however. For instance, \texttt{sidenotes} cannot be used in equations, \texttt{multicols}, and in the \texttt{proof}\sn{See \ref{Sub:Special} and \ref{Sub: Fullpage} for more details.} environment.
+	\noindent So clearly, \texttt{sidenotes} must be better right? There are a few places where \texttt{sidenotes} fails too however. For instance, \texttt{sidenotes} cannot be used in equations, \texttt{multicols}, and with the \texttt{tcolorbox}\sn{See \ref{Sub:Special} and \ref{Sub: Fullpage} for more details.} environment. As the majority of the special environments from \texttt{amsthm} are modified to use \texttt{tcolorbox}, \texttt{marginnotes} becomes an essential part of \textit{NotesTeX}.
 
 
+	\newpage
+	\subsection{\texttt{amsthm} Environments}\label{Sub:Special}
+	\texttt{amsthm} environments are defined as usual being enclosed by \texttt{$\backslash$begin\{environment\}}$\cdots$ \texttt{$\backslash$end\{environment\}} and most have been modified ostensibly from the original \texttt{amsthm} presets. Primarily, most environments, with the exception of the exercise environment, are now integrated with the wonderful \texttt{tcolorbox} package.
+	\subsubsection{\texttt{tcolorbox environments} and Known Issues} % (fold)
+	\label{ssub:tcolorbox environments_and_known_issues}
+	The counting for \texttt{theorems} and \texttt{lemmas} is distinct from the counting for \texttt{definitions}.
+
+	There is one issue with this however.\marginnote{Not a major one but frustrating nonetheless.} Since we are using a \texttt{tcolorbox}, this proof environment is incompatible with \texttt{$\backslash$sn} and \texttt{$\backslash$sidenote}, as it results in a \textbf{Float(s) Error}. However, this environment is compatible with \texttt{$\backslash$mn} and \texttt{$\backslash$marginnote} thankfully.\mn{As one can see right here.}
 
 
-	
+	The \texttt{breakable} should allow the \texttt{proof} environment to span multiple pages. If one wishes to change the color, simply modify the line which states \texttt{borderline west=\{1pt\}\{0pt\}\{blue\}}. The first numeric value dictates the width of the line, the second dictates how close it is away from the \textit{left} margin, while the last argument obviously dictates the color. This code could also be used to change any of the other \texttt{amsthm} environments.\\
 
-
-	\subsection{Special Environments}\label{Sub:Special}
-	All special environments are defined by
-	\begin{center}
-	\texttt{$\backslash$begin\{environment\}}\\
-	$\cdots$\\
-	\texttt{$\backslash$end\{environment\}}
-	\end{center}
-	and most have been modified ostensibly from the original \texttt{amsthm} presets. Each environment, with the exception of the exercise environment, have been modified by the \texttt{tcolorbox} package in order to set these apart from the rest of the text. The counting for \texttt{theorems} and \texttt{lemmas} is distinct from the counting for \texttt{definitions}.
+	% subsubsection tcolorbox environments_and_known_issues (end)
+	\begin{definition}
+		The \texttt{definition} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
+		\begin{verbatim}
+			\tcolorboxenvironment{definition}{
+			  boxrule=0pt,
+			  boxsep=0pt,
+			  colback={White!90!Cerulean},
+			  enhanced jigsaw, 
+			  borderline west={2pt}{0pt}{Cerulean},
+			  sharp corners,
+			  before skip=10pt,
+			  after skip=10pt,
+			  breakable,
+			}
+		\end{verbatim}
+	\end{definition}
 	\begin{theorem}
 		The \texttt{theorem} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
 		\begin{verbatim}
@@ -137,10 +150,24 @@ University of Minnesota
 		\end{verbatim}
 	\end{theorem}
 	\begin{lemma}
-		Here is a generic lemma.
+		The \texttt{lemma} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
+		\begin{verbatim}
+		\tcolorboxenvironment{lemma}{
+		  boxrule=0pt,
+		  boxsep=0pt,
+		  blanker,
+		  borderline west={2pt}{0pt}{Red},
+		  before skip=10pt,
+		  after skip=10pt,
+		  sharp corners,
+		  left=12pt,
+		  right=12pt,
+		  breakable,
+		}
+		\end{verbatim}
 	\end{lemma}
 	\begin{proof}
-		The proof environment is distinct from the rest of the \texttt{amsthm} objects. The blue line differentiates the \texttt{proof} environment from the rest of the text as proofs, in the author's opinion, deserve extra attention beyond including a QED symbol. The code attributed to this environment is
+		The \texttt{proof} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
 		\begin{verbatim}
 			\tcolorboxenvironment{proof}{
 			  boxrule=0pt,
@@ -154,23 +181,45 @@ University of Minnesota
 			  breakable,
 			}
 		\end{verbatim}
-		The \texttt{breakable} should allow the \texttt{proof} environment to span multiple pages. If one wishes to change the color, simply modify the line which states \texttt{borderline west=\{1pt\}\{0pt\}\{blue\}}. The first numeric value dictates the width of the line, the second dictates how close it is away from the \textit{left} margin, while the last argument obviously dictates the color. This code could also be used to change any of the other \texttt{amsthm} environments.\\
-
-		There is one issue with this however.\marginnote{Not a major one but frustrating nonetheless.} Since we are using a \texttt{tcolorbox}, this proof environment is incompatible with \texttt{$\backslash$sn} and \texttt{$\backslash$sidenote}, as it results in a \textbf{Float(s) Error}. However, this environment is compatible with \texttt{$\backslash$mn} and \texttt{$\backslash$marginnote} thankfully.\mn{As one can see right here.}
 	\end{proof}
-	\begin{definition}
-		Here is a generic definition.
-	\end{definition}
 	\begin{example}
-		Here is a generic example.
+		The \texttt{example} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
+		\begin{verbatim}	
+		\tcolorboxenvironment{example}{
+		  boxrule=0pt,
+		  boxsep=0pt,
+		  blanker,
+		  borderline west={2pt}{0pt}{Black},
+		  sharp corners,
+		  before skip=10pt,
+		  after skip=10pt,
+		  left=12pt,
+		  right=12pt,
+		  breakable,
+		}
+		\end{verbatim}
 	\end{example}	
 	\begin{remark}
-		Here is a generic remark.
+		The \texttt{remark} environment and the associated \texttt{tcolorbox} are provided by the following code in \texttt{NotesTeX.sty}:
+		\begin{verbatim}
+		\tcolorboxenvironment{remark}{
+		  boxrule=0pt,
+		  boxsep=0pt,
+		  blanker,
+		  borderline west={2pt}{0pt}{Green},
+		  before skip=10pt,
+		  after skip=10pt,
+		  left=12pt,
+		  right=12pt,
+		  breakable,
+		}
+		\end{verbatim}
 	\end{remark}
 	\begin{exercise}
-		Here is a generic exercise.
+		The exercise environment remains unchanged from the \texttt{amsthm} presets.
 	\end{exercise}
 	
+	\newpage
 	\subsection{\TeX\ Shortcuts}
 	\textit{NotesTeX} comes built in with a minimal set of keyboard shortcuts for a few special characters. All of these shortcuts can be found in \texttt{NotesTeX.sty} just under
 	\begin{verbatim}
@@ -212,7 +261,7 @@ University of Minnesota
 	\end{equation*}
 
 
-
+	\newpage
 	\subsection{The Part Environment}
 	In the original Jhep format, the \texttt{$\backslash$part} environment is not special and is set to the default given by the article class. In \textit{NotesTeX}, the \texttt{part} environment produces a
 
