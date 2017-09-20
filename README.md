@@ -34,6 +34,7 @@ Here is an example of a test page:
   \newpage
   \pagestyle{fancynotes}
   \part{Test Part 1}
+  \lipsum[1]
   \section{Subtest Section 1}
   Some notes here.\sn{With some additional sidenotes}
 \end{document}
