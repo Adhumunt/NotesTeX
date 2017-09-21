@@ -24,13 +24,17 @@
 
 
 ## Preview
+| ```Jhep``` Formatting | Table of Contents |
+|:---:|:---:|
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample0.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample0.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.pdf) |
+
 | Margin Notes | ```amsthm``` Integration |
 |:---:|:---:|
-| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.pdf) |
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.pdf) |
 
-| Image Integration ||
+| Image Integration | New ```part``` Formatting |
 |:---:|:---:|
-| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.pdf) |
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample5.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample5.pdf) |
 
 ## Installation
 Installing just requires the following steps:
