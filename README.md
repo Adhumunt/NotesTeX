@@ -11,15 +11,15 @@
 </p>
 <br>
 
-| ## Table of contents | ## Purpose | 
+| Table of contents | Purpose | 
 | ------------- |:-------------:|
-| - [Preview](#preview) | _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. |
-| - [Installation](#installation) | a |
-| - [Example](#example) | b | 
-| - [Documentation](#documentation) | c |
-| - [License](#license) | d |
-| - [Version and Contact](#version-and-contact) | e|
-
+| - [Preview](#preview) 
+  - [Installation](#installation)  
+  - [Example](#example)   
+  - [Documentation](#documentation)  
+  - [License](#license) 
+  - [Version and Contact](#version-and-contact)
+  | _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. |
 
 ## Preview
 | Page. 1 | Page. 2 |
