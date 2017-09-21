@@ -7,6 +7,10 @@
     <br>
     <i>NotesTeX</i> is a modification of the original Jhep journal <br> format in order to suit the needs of students in university. 
     <br>
+    <br>
+    &middot;
+    <b>NotesTeX v2.0</b>
+    &middot;
   </p>
 </p>
 
@@ -20,11 +24,11 @@
 
 
 ## Preview
-| Page. 1 | Page. 2 |
+| Margin Notes | ```amsthm``` Integration |
 |:---:|:---:|
 | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.pdf) |
 
-| Page. 3 | Page. 4 |
+| Image Integration |
 |:---:|:---:|
 | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.pdf) |
 
