@@ -3,9 +3,10 @@
   <h1 align="center"><i>NotesTeX</i></h1>
 
   <p align="center">
-    An All-In-One LaTeX Notes Package For Students.
+    <b>An All-In-One LaTeX Notes Package For Students.</b>
     <br>
     <i>NotesTeX</i> is a modification of the original Jhep journal <br> format in order to suit the needs of students in university. 
+    <br>
     <br>
     <a href="http://geodesick.com/">Website</a>
   </p>
