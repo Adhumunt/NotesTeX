@@ -17,11 +17,11 @@ _NotesTeX_ is a modification of the original Jhep journal format in order to sui
 ## Preview
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample1.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/examples/resume.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample2.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample1.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample2.pdf) |
 
 | Page. 3 | Page. 4 |
 |:---:|:---:|
-| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample3.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/examples/resume.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample4.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample3.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Sample/Sample4.pdf) |
 
 ## Installation
 Installing just requires the following steps:
