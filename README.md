@@ -1,9 +1,10 @@
 <p align="center">
 
-  <h3 align="center">NotesTeX</h3>
+  <h1 align="center">NotesTeX</h1>
 
   <p align="center">
-    An All-In-One Notes Package For Students
+    An All-In-One LaTeX Notes Package For Students
+    <br>
     <br>
     <a href="http://geodesick.com/">Website</a>
   </p>
@@ -63,7 +64,7 @@ This material is subject ot the [LaTeX Project Public License](LICENSE).
 
 ## Version and Contact
 
-> NotesTeX v2.0.
+> NotesTeX v2.0.  
 > Created by Aditya Dhumuntarao.  
 > Date: September 21, 2017.  
 > E-mail comments and suggestions to adhumunt@gmail.com.  
