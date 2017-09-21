@@ -3,13 +3,12 @@
   <h1 align="center">NotesTeX</h1>
 
   <p align="center">
-    An All-In-One LaTeX Notes Package For Students
+    _An All-In-One LaTeX Notes Package For Students_
     <br>
     <br>
     <a href="http://geodesick.com/">Website</a>
   </p>
 </p>
-
 <br>
 
 ## Purpose
