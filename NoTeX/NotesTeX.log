@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_1) (preloaded format=pdflatex 2017.7.6)  20 SEP 2017 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_1) (preloaded format=pdflatex 2017.7.6)  21 SEP 2017 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1953,7 +1953,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \email@toks=\toks51
 \c@email@counter=\count276
 \affiliationsSep=\skip79
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 543.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 550.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
@@ -1965,21 +1965,21 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 ) (./NotesTeX.aux)
 \openout1 = `NotesTeX.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 19.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2003,18 +2003,18 @@ Package caption Info: End \AtBeginDocument code.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(101.92578pt, 393.14842pt, 101.9258pt)
-* v-part:(T,H,B)=(89.96976pt, 620.0756pt, 134.95464pt)
+* v-part:(T,H,B)=(70.89124pt, 667.77187pt, 106.3369pt)
 * \paperwidth=597.0pt
 * \paperheight=845.0pt
 * \textwidth=393.14842pt
-* \textheight=630.0756pt
+* \textheight=677.77187pt
 * \oddsidemargin=29.65579pt
 * \evensidemargin=29.65579pt
 * \topmargin=42.25258pt
 * \headheight=16.90361pt
 * \headsep=25.34897pt
 * \topskip=10.0pt
-* \footskip=591.49742pt
+* \footskip=20.0pt
 * \marginparwidth=137.30745pt
 * \marginparsep=11.94255pt
 * \columnsep=10.0pt
@@ -2059,7 +2059,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box101
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 19.
 
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2069,9 +2069,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./NotesTeX.out) (./NotesTeX.out)
 \@outlinefile=\write6
@@ -2095,7 +2095,7 @@ LaTeX Info: Redefining \nameref on input line 17.
 * \headheight=16.90361pt
 * \headsep=25.34897pt
 * \topskip=10.0pt
-* \footskip=591.49742pt
+* \footskip=20.0pt
 * \marginparwidth=0.0pt
 * \marginparsep=0.0pt
 * \columnsep=10.0pt
@@ -2109,63 +2109,63 @@ LaTeX Info: Redefining \nameref on input line 17.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 18.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <24.88> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 18.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 20.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 18.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 20.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 18.
+(Font)              <10> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 18.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 18.
+(Font)              <5> on input line 20.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 18.
+(Font)              <6> on input line 20.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 20.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2174,187 +2174,185 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 {/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./NotesTeX.toc
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 12.
 )
 \tf@toc=\write7
 \openout7 = `NotesTeX.toc'.
 
  [1]
 Package marginnote Info: Margin note 3.1 is on absolute page 3
-(marginnote)              on input line 22.
-Package marginnote Info: right page because not two side mode on input line 22.
+(marginnote)              on input line 24.
+Package marginnote Info: right page because not two side mode on input line 24.
 
 Package marginnote Info: xpos seems to be 101.92578pt,
-(marginnote)             \marginnoterightadjust ignored on input line 22.
+(marginnote)             \marginnoterightadjust ignored on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 22.
+(Font)              <24.88> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 22.
+(Font)              <20.74> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 22.
+(Font)              <17.28> on input line 24.
  [1
 
 ]
 Package marginnote Info: Margin note 4.1 is on absolute page 4
-(marginnote)              on input line 43.
-Package marginnote Info: right page because not two side mode on input line 43.
+(marginnote)              on input line 54.
+Package marginnote Info: right page because not two side mode on input line 54.
 
 Package marginnote Info: xpos seems to be 101.92578pt,
-(marginnote)             \marginnoterightadjust ignored on input line 43.
+(marginnote)             \marginnoterightadjust ignored on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-Package marginnote Info: Margin note 4.2 is on absolute page 5
-(marginnote)              on input line 89.
-Package marginnote Info: right page because not two side mode on input line 89.
-
-Package marginnote Info: xpos seems to be 379.53287pt,
-(marginnote)             \marginnoterightadjust ignored on input line 89.
-Package marginnote Info: Margin note 4.3 is on absolute page 5
-(marginnote)              on input line 89.
-Package marginnote Info: right page because not two side mode on input line 89.
-
-Package marginnote Info: xpos seems to be 295.57466pt,
-(marginnote)             \marginnoterightadjust ignored on input line 89.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.90 		\item \texttt
-                    {Margintable:} This environment requires the \texttt{$\b...
-[1]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 [2]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 108.
-Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 114.
-Package marginnote Info: right page because not two side mode on input line 114
+Package marginnote Info: Margin note 5.1 is on absolute page 5
+(marginnote)              on input line 145.
+Package marginnote Info: right page because not two side mode on input line 145
 .
-Package marginnote Info: xpos seems to be 297.67407pt,
-(marginnote)             \marginnoterightadjust ignored on input line 114.
-Package marginnote Info: Margin note 6.2 is on absolute page 6
-(marginnote)              on input line 114.
-Package marginnote Info: right page because not two side mode on input line 114
+Package marginnote Info: xpos seems to be 379.53287pt,
+(marginnote)             \marginnoterightadjust ignored on input line 145.
+Package marginnote Info: Margin note 5.2 is on absolute page 5
+(marginnote)              on input line 145.
+Package marginnote Info: right page because not two side mode on input line 145
 .
-Package marginnote Info: xpos seems to be 456.31683pt,
-(marginnote)             \marginnoterightadjust ignored on input line 114.
+Package marginnote Info: xpos seems to be 295.57466pt,
+(marginnote)             \marginnoterightadjust ignored on input line 145.
 
-Overfull \hbox (45.37854pt too wide) in paragraph at lines 117--118
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 174.
+[3]
+LaTeX Font Info:    Try loading font information for U+euf on input line 197.
+ (/opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [4]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 212.
+ [5]
+Package marginnote Info: Margin note 8.1 is on absolute page 9
+(marginnote)              on input line 322.
+Package marginnote Info: right page because not two side mode on input line 322
+.
+Package marginnote Info: xpos seems to be 268.07025pt,
+(marginnote)             \marginnoterightadjust ignored on input line 322.
+Package marginnote Info: Margin note 8.2 is on absolute page 9
+(marginnote)              on input line 322.
+Package marginnote Info: right page because not two side mode on input line 322
+.
+Package marginnote Info: xpos seems to be 413.23344pt,
+(marginnote)             \marginnoterightadjust ignored on input line 322.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Overfull \hbox (45.37854pt too wide) in paragraph at lines 325--326
 \T1/lmr/m/n/10 wishes to change the color, sim-ply mod-ify the line which state
 s \T1/lmtt/m/n/10 borderline west={1pt}{0pt}{blue}\T1/lmr/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-[5]
-LaTeX Font Info:    Try loading font information for U+euf on input line 246.
- (/opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [6]
-Overfull \hbox (11.1004pt too wide) in paragraph at lines 277--277
-[]\T1/lmtt/m/n/10 \titleformat{\part}[hang]{{\thispagestyle{plain}}\Huge\bfseri
-es}{\marginnote{ 
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
  []
 
 
-Overfull \hbox (37.35033pt too wide) in paragraph at lines 280--280
-[]   \T1/lmtt/m/n/10 colframe=black!75!white,center title,fonttitle=\bfseries\n
-ormalsize,title=PART,[] 
+Overfull \hbox (149.25pt too wide) in paragraph at lines 332--356
+$[]$ 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
 
-Overfull \hbox (149.25pt too wide) in paragraph at lines 294--320
+Overfull \hbox (149.25pt too wide) in paragraph at lines 361--371
 $[]$
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--371
+
+ []
+
+
+Overfull \hbox (149.25pt too wide) in paragraph at lines 372--381
+$[]$ 
+ []
+
+
+Overfull \hbox (149.25pt too wide) in paragraph at lines 386--393
+$[]$ 
+ []
+
 [8]
-Package marginnote Info: Margin note 12.1 is on absolute page 12
-(marginnote)              on input line 323.
-Package marginnote Info: right page because not two side mode on input line 323
+Package marginnote Info: Margin note 11.1 is on absolute page 11
+(marginnote)              on input line 406.
+Package marginnote Info: right page because not two side mode on input line 406
 .
 Package marginnote Info: xpos seems to be 101.92578pt,
-(marginnote)             \marginnoterightadjust ignored on input line 323.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 337.
+(marginnote)             \marginnoterightadjust ignored on input line 406.
 
-Overfull \hbox (6.23468pt too wide) in paragraph at lines 354--355
+Overfull \hbox (6.23468pt too wide) in paragraph at lines 437--438
 \T1/lmr/m/n/10 and $\OMS/lmsy/m/n/10 n$\T1/lmtt/m/n/10 subsectionmark \T1/lmr/m
 /n/10 are set up so that the \T1/lmtt/m/n/10 section \T1/lmr/m/n/10 ap-pears on
  the left and all \T1/lmtt/m/n/10 subsections
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.355 
-       [1]pdfTeX warning (ext4): destination with the same identifier (name{pag
-e.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.365 \end{document}
-                     [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
  (./NotesTeX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
 Package rerunfilecheck Info: File `NotesTeX.out' has not changed.
-(rerunfilecheck)             Checksum: 2DF7C2230D074C5AC572C8A72667A5B0;990.
+(rerunfilecheck)             Checksum: 53ED2692B76EB236B64F048EB54192E8;1147.
  ) 
 Here is how much of TeX's memory you used:
- 32521 strings out of 494108
- 628282 string characters out of 6155656
- 816417 words of memory out of 5000000
- 35322 multiletter control sequences out of 15000+600000
- 167796 words of font info for 134 fonts, out of 8000000 for 9000
+ 32535 strings out of 494108
+ 628384 string characters out of 6155656
+ 823639 words of memory out of 5000000
+ 35328 multiletter control sequences out of 15000+600000
+ 159109 words of font info for 131 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 65i,15n,95p,10476b,944s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}{/opt/local/shar
-e/texmf-texlive/fonts/enc/dvips/lm/lm-mathit.enc}{/opt/local/share/texmf-texliv
-e/fonts/enc/dvips/lm/lm-rm.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/
-lm/lm-mathsy.enc}</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/eu
-ler/eufm10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmbx10.pfb
-></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmbx12.pfb></opt/local/s
-hare/texmf-texlive/fonts/type1/public/lm/lmbx8.pfb></opt/local/share/texmf-texl
-ive/fonts/type1/public/lm/lmbx9.pfb></opt/local/share/texmf-texlive/fonts/type1
-/public/lm/lmcsc10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lm
-mi10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr10.pfb></opt/
-local/share/texmf-texlive/fonts/type1/public/lm/lmr6.pfb></opt/local/share/texm
-f-texlive/fonts/type1/public/lm/lmr7.pfb></opt/local/share/texmf-texlive/fonts/
-type1/public/lm/lmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/
-lmr9.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmri10.pfb></opt
-/local/share/texmf-texlive/fonts/type1/public/lm/lmri7.pfb></opt/local/share/te
-xmf-texlive/fonts/type1/public/lm/lmri8.pfb></opt/local/share/texmf-texlive/fon
-ts/type1/public/lm/lmri9.pfb></opt/local/share/texmf-texlive/fonts/type1/public
-/lm/lmssbo10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmssbx10
-.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmsy10.pfb></opt/loc
-al/share/texmf-texlive/fonts/type1/public/lm/lmtcsc10.pfb></opt/local/share/tex
-mf-texlive/fonts/type1/public/lm/lmtk10.pfb></opt/local/share/texmf-texlive/fon
-ts/type1/public/lm/lmtt10.pfb></opt/local/share/texmf-texlive/fonts/type1/publi
-c/lm/lmtti10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on NotesTeX.pdf (13 pages, 544509 bytes).
+ 65i,15n,95p,10476b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-rm.enc}{/opt/local/shar
+e/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc}{/opt/local/share/texmf-texlive/fo
+nts/enc/dvips/lm/lm-mathsy.enc}</opt/local/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/euler/eufm10.pfb></opt/local/share/texmf-texlive/fonts/type1/public
+/lm/lmbx10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmbx12.pfb
+></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmbx8.pfb></opt/local/sh
+are/texmf-texlive/fonts/type1/public/lm/lmbx9.pfb></opt/local/share/texmf-texli
+ve/fonts/type1/public/lm/lmcsc10.pfb></opt/local/share/texmf-texlive/fonts/type
+1/public/lm/lmr10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr
+6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmr7.pfb></opt/loca
+l/share/texmf-texlive/fonts/type1/public/lm/lmr8.pfb></opt/local/share/texmf-te
+xlive/fonts/type1/public/lm/lmr9.pfb></opt/local/share/texmf-texlive/fonts/type
+1/public/lm/lmri10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lm
+ri8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmri9.pfb></opt/l
+ocal/share/texmf-texlive/fonts/type1/public/lm/lmssbo10.pfb></opt/local/share/t
+exmf-texlive/fonts/type1/public/lm/lmssbx10.pfb></opt/local/share/texmf-texlive
+/fonts/type1/public/lm/lmsy10.pfb></opt/local/share/texmf-texlive/fonts/type1/p
+ublic/lm/lmtcsc10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmt
+k10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtt10.pfb></opt/
+local/share/texmf-texlive/fonts/type1/public/lm/lmtt8.pfb></opt/local/share/tex
+mf-texlive/fonts/type1/public/lm/lmtti10.pfb></opt/local/share/texmf-texlive/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on NotesTeX.pdf (11 pages, 567384 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

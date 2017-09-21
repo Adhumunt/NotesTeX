@@ -4,13 +4,16 @@
 \BOOKMARK [1][-]{section.3}{License}{part.1}% 4
 \BOOKMARK [0][-]{part.2}{II Modifications}{}% 5
 \BOOKMARK [1][-]{section.4}{Features}{part.2}% 6
-\BOOKMARK [2][-]{subsection.4.1}{Margins}{section.4}% 7
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Why use both marginnotes and sidenotes?}{subsection.4.1}% 8
-\BOOKMARK [2][-]{subsection.4.2}{amsthm Environments}{section.4}% 9
-\BOOKMARK [3][-]{subsubsection.4.2.1}{tcolorbox environments and Known Issues}{subsection.4.2}% 10
-\BOOKMARK [2][-]{subsection.4.3}{TeX Shortcuts}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.4}{The Part Environment}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.5}{Fullpage Environment}{section.4}% 13
-\BOOKMARK [0][-]{part.3}{III Page Formatting}{}% 14
-\BOOKMARK [1][-]{section.5}{Page Dimensions}{part.3}% 15
-\BOOKMARK [1][-]{section.6}{Fancyhdr Layout}{part.3}% 16
+\BOOKMARK [1][-]{section.5}{Included Packages}{part.2}% 7
+\BOOKMARK [1][-]{section.6}{Margins}{part.2}% 8
+\BOOKMARK [2][-]{subsection.6.1}{Why use both marginnotes and sidenotes?}{section.6}% 9
+\BOOKMARK [1][-]{section.7}{TeX Shortcuts}{part.2}% 10
+\BOOKMARK [2][-]{subsection.7.1}{Available Shortcuts}{section.7}% 11
+\BOOKMARK [1][-]{section.8}{amsthm Environments}{part.2}% 12
+\BOOKMARK [2][-]{subsection.8.1}{tcolorbox Environment and Known Issues}{section.8}% 13
+\BOOKMARK [1][-]{section.9}{The Part Environment}{part.2}% 14
+\BOOKMARK [1][-]{section.10}{Fullpage Environment}{part.2}% 15
+\BOOKMARK [2][-]{subsection.10.1}{Known Issues with Fullpage}{section.10}% 16
+\BOOKMARK [0][-]{part.3}{III Advanced Page Formatting}{}% 17
+\BOOKMARK [1][-]{section.11}{Page Dimensions}{part.3}% 18
+\BOOKMARK [1][-]{section.12}{Fancyhdr Layout}{part.3}% 19

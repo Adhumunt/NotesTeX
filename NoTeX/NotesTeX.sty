@@ -69,8 +69,8 @@
 \geometry{paperheight=845pt,paperwidth=597pt,                         %fix paperwidth and height.
           marginparsep=.02\paperwidth,marginparwidth=.23\paperwidth,
           hoffset=-1in, voffset=-1in, headheight=.02\paperheight,
-          headsep=.03\paperheight,footskip=0.7\paperheight,
-          textheight=.78\paperheight,textwidth=.64\paperwidth}
+          headsep=.03\paperheight,footskip=20pt,
+          textheight=.84\paperheight,textwidth=.64\paperwidth}
 
 \pagestyle{fancy}%
 \newlength{\myoddoffset}%
@@ -86,7 +86,14 @@
   \fancyhead[R]{\footnotesize \textit{\rightmark}~~~~ \thepage}%
 }%
 
-\titleformat{\part}[hang]{{\thispagestyle{plain}}\Huge\bfseries}{\marginnote{
+\fancypagestyle{fancypart}{%
+  \fancyhf{}%
+  \fancyfootoffset[rh]{\myoddoffset}%
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyfoot[L]{\footnotesize \thepage}%
+}%
+
+\titleformat{\part}[hang]{{\thispagestyle{fancypart}}\Huge\bfseries}{\marginnote{
 \begin{tcolorbox}[width=\marginparwidth,height=\marginparwidth/2,colback=black!75!white,colframe=black!75!white,center title,fonttitle=\bfseries\normalsize,title=PART,text fill]
   \begin{center}
   {\color{white}\thepart}
@@ -214,7 +221,6 @@
   breakable,
 }
 
-
 \renewcommand*{\raggedleftmarginnote}{\noindent}
 \renewcommand*{\raggedrightmarginnote}{\noindent}
 \newcommand{\mn}[1]{\textsuperscript{\thesidenote}{}\marginnote{\textsuperscript{\thesidenote}{}~\itshape\footnotesize #1}\refstepcounter{sidenote}}
@@ -224,6 +230,7 @@
 % ----------------------------------------------------------------------
 %           User Created Commands
 % ----------------------------------------------------------------------
+
 \newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
 \newcommand{\xint}{\int_{x_1}^{x_2}}
 \newcommand{\tint}{\int_{t_1}^{t_2}}
