@@ -13,7 +13,7 @@
 
 | Table of contents | Purpose | 
 | ------------- |-------------:|
-| - [Preview](#preview) <br> - [Installation](#installation) - [Example](#example) - [Documentation](#documentation)  - [License](#license) - [Version and Contact](#version-and-contact) | _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. |
+| - [Preview](#preview) <br> - [Installation](#installation) <br> - [Example](#example) <br> - [Documentation](#documentation) <br> - [License](#license) <br> - [Version and Contact](#version-and-contact) | _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. |
 
 ## Preview
 | Page. 1 | Page. 2 |
