@@ -3,13 +3,23 @@
   <h1 align="center">NotesTeX</h1>
 
   <p align="center">
-    _An All-In-One LaTeX Notes Package For Students_
+    An All-In-One LaTeX Notes Package For Students
     <br>
     <br>
     <a href="http://geodesick.com/">Website</a>
   </p>
 </p>
 <br>
+
+## Table of contents
+
+- [Purpose](#purpose)
+- [Preview](#preview)
+- [Installation](#installation)
+- [Example](#example)
+- [Documentation](#documentation)
+- [License](#license)
+- [Version and Contact](#version-and-contact)
 
 ## Purpose
 _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. 
