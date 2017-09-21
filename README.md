@@ -1,10 +1,11 @@
 <p align="center">
 
-  <h1 align="center">NotesTeX</h1>
+  <h1 align="center"><i>NotesTeX</i></h1>
 
   <p align="center">
-    An All-In-One LaTeX Notes Package For Students
+    An All-In-One LaTeX Notes Package For Students.
     <br>
+    <i>NotesTeX</i> is a modification of the original Jhep journal <br> format in order to suit the needs of students in university. 
     <br>
     <a href="http://geodesick.com/">Website</a>
   </p>
@@ -19,9 +20,6 @@
 - [License](#license)
 - [Version and Contact](#version-and-contact) 
 
-## Purpose
- 
-_NotesTeX_ is a modification of the original Jhep journal <br> format in order to suit the needs of students in university. 
 
 ## Preview
 | Page. 1 | Page. 2 |
