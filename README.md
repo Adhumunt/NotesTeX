@@ -1,12 +1,27 @@
-# The NotesTeX Package
+<p align="center">
 
-> NotesTeX v1.1.  
-> Created by Aditya Dhumuntarao.  
-> Date: September 18, 2017.  
-> E-mail comments and suggestions to adhumunt@gmail.com.  
----
+  <h3 align="center">NotesTeX</h3>
+
+  <p align="center">
+    An All-In-One Notes Package For Students
+    <br>
+    <a href="http://geodesick.com/">Website</a>
+  </p>
+</p>
+
+<br>
+
 ## Purpose
 _NotesTeX_ is a modification of the original Jhep journal format in order to suit the needs of students in university. 
+
+## Preview
+| Page. 1 | Page. 2 |
+|:---:|:---:|
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample1.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/examples/resume.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample2.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+
+| Page. 3 | Page. 4 |
+|:---:|:---:|
+| [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample3.png)](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/examples/resume.pdf)  | [![Preview](https://raw.githubusercontent.com/adhumunt/NotesTeX/master/Samples/Sample4.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
 
 ## Installation
 Installing just requires the following steps:
@@ -40,9 +55,15 @@ Here is an example of a test page:
 \end{document}
 ```
 
-## Details
+## Documentation
 All the documentation of this package is given in [NotesTeX.pdf](NoTeX/NotesTeX.pdf) and if you have any questions feel free to contact me.
-
 
 ## License
 This material is subject ot the [LaTeX Project Public License](LICENSE).
+
+## Version and Contact
+
+> NotesTeX v2.0.
+> Created by Aditya Dhumuntarao.  
+> Date: September 21, 2017.  
+> E-mail comments and suggestions to adhumunt@gmail.com.  
