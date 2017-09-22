@@ -11,6 +11,10 @@
     &middot;
     <b>NotesTeX v2.0</b>
     &middot;
+    <br>
+    &middot; 
+     <a href="https://ctan.org/pkg/notestex"><strong>CTAN &raquo;</strong></a>
+    &middot;
   </p>
 </p>
 
