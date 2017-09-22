@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_1) (preloaded format=pdflatex 2017.7.6)  21 SEP 2017 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_1) (preloaded format=pdflatex 2017.7.6)  21 SEP 2017 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2208,17 +2208,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
 [2]
 Package marginnote Info: Margin note 5.1 is on absolute page 5
-(marginnote)              on input line 145.
-Package marginnote Info: right page because not two side mode on input line 145
+(marginnote)              on input line 142.
+Package marginnote Info: right page because not two side mode on input line 142
 .
 Package marginnote Info: xpos seems to be 379.53287pt,
-(marginnote)             \marginnoterightadjust ignored on input line 145.
+(marginnote)             \marginnoterightadjust ignored on input line 142.
 Package marginnote Info: Margin note 5.2 is on absolute page 5
-(marginnote)              on input line 145.
-Package marginnote Info: right page because not two side mode on input line 145
+(marginnote)              on input line 142.
+Package marginnote Info: right page because not two side mode on input line 142
 .
 Package marginnote Info: xpos seems to be 295.57466pt,
-(marginnote)             \marginnoterightadjust ignored on input line 145.
+(marginnote)             \marginnoterightadjust ignored on input line 142.
 
 
 LaTeX Warning: Marginpar on page 3 moved.
@@ -2227,96 +2227,96 @@ LaTeX Warning: Marginpar on page 3 moved.
 LaTeX Warning: Marginpar on page 3 moved.
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 174.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 171.
 [3]
-LaTeX Font Info:    Try loading font information for U+euf on input line 197.
+LaTeX Font Info:    Try loading font information for U+euf on input line 194.
  (/opt/local/share/texmf-texlive/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [4]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 212.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 209.
  [5]
 Package marginnote Info: Margin note 8.1 is on absolute page 9
-(marginnote)              on input line 322.
-Package marginnote Info: right page because not two side mode on input line 322
+(marginnote)              on input line 319.
+Package marginnote Info: right page because not two side mode on input line 319
 .
 Package marginnote Info: xpos seems to be 268.07025pt,
-(marginnote)             \marginnoterightadjust ignored on input line 322.
+(marginnote)             \marginnoterightadjust ignored on input line 319.
 Package marginnote Info: Margin note 8.2 is on absolute page 9
-(marginnote)              on input line 322.
-Package marginnote Info: right page because not two side mode on input line 322
+(marginnote)              on input line 319.
+Package marginnote Info: right page because not two side mode on input line 319
 .
 Package marginnote Info: xpos seems to be 413.23344pt,
-(marginnote)             \marginnoterightadjust ignored on input line 322.
+(marginnote)             \marginnoterightadjust ignored on input line 319.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Overfull \hbox (45.37854pt too wide) in paragraph at lines 325--326
+Overfull \hbox (45.37854pt too wide) in paragraph at lines 322--323
 \T1/lmr/m/n/10 wishes to change the color, sim-ply mod-ify the line which state
 s \T1/lmtt/m/n/10 borderline west={1pt}{0pt}{blue}\T1/lmr/m/n/10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
 
-Overfull \hbox (149.25pt too wide) in paragraph at lines 332--356
+Overfull \hbox (149.25pt too wide) in paragraph at lines 329--353
 $[]$ 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Overfull \hbox (149.25pt too wide) in paragraph at lines 361--371
+Overfull \hbox (149.25pt too wide) in paragraph at lines 358--368
 $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--371
+Underfull \hbox (badness 10000) in paragraph at lines 358--368
 
  []
 
 
-Overfull \hbox (149.25pt too wide) in paragraph at lines 372--381
+Overfull \hbox (149.25pt too wide) in paragraph at lines 369--378
 $[]$ 
  []
 
 
-Overfull \hbox (149.25pt too wide) in paragraph at lines 386--393
+Overfull \hbox (149.25pt too wide) in paragraph at lines 383--390
 $[]$ 
  []
 
 [8]
 Package marginnote Info: Margin note 11.1 is on absolute page 11
-(marginnote)              on input line 406.
-Package marginnote Info: right page because not two side mode on input line 406
+(marginnote)              on input line 403.
+Package marginnote Info: right page because not two side mode on input line 403
 .
 Package marginnote Info: xpos seems to be 101.92578pt,
-(marginnote)             \marginnoterightadjust ignored on input line 406.
+(marginnote)             \marginnoterightadjust ignored on input line 403.
 
-Overfull \hbox (6.23468pt too wide) in paragraph at lines 437--438
+Overfull \hbox (6.23468pt too wide) in paragraph at lines 434--435
 \T1/lmr/m/n/10 and $\OMS/lmsy/m/n/10 n$\T1/lmtt/m/n/10 subsectionmark \T1/lmr/m
 /n/10 are set up so that the \T1/lmtt/m/n/10 section \T1/lmr/m/n/10 ap-pears on
  the left and all \T1/lmtt/m/n/10 subsections
  []
 
 [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
  (./NotesTeX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
 Package rerunfilecheck Info: File `NotesTeX.out' has not changed.
 (rerunfilecheck)             Checksum: 53ED2692B76EB236B64F048EB54192E8;1147.
  ) 
@@ -2350,9 +2350,9 @@ k10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtt10.pfb></opt/
 local/share/texmf-texlive/fonts/type1/public/lm/lmtt8.pfb></opt/local/share/tex
 mf-texlive/fonts/type1/public/lm/lmtti10.pfb></opt/local/share/texmf-texlive/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on NotesTeX.pdf (11 pages, 567383 bytes).
+Output written on NotesTeX.pdf (11 pages, 571685 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
+ 390 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
