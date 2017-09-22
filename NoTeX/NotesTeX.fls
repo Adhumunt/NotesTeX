@@ -1,4 +1,4 @@
-PWD /Volumes/DATA/GitHub/LaTeX/NOTESTEX/NoTeX
+PWD /Volumes/DATA/GitHub/LaTeX/Notex/NoTeX
 INPUT /opt/local/etc/texmf/texmf.cnf
 INPUT /opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt
 INPUT NotesTeX.tex
