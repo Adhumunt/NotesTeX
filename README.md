@@ -17,7 +17,7 @@
 ## Table of contents
 - [Preview](#preview)
 - [Installation](#installation)
-- [Example](#example)
+- [Usage](#Usage)
 - [Documentation](#documentation)
 - [License](#license)
 - [Version and Contact](#version-and-contact) 
