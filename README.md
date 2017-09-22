@@ -47,7 +47,7 @@ Installing just requires the following steps:
 Here is an example of a test page:
 
 ```latex
-\documentclass{article}
+\documentclass[10pt]{article}
 \usepackage{/Path/to/package/NotesTeX} %/Path/to/package should be replaced with package location
 \usepackage{lipsum}
 
