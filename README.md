@@ -9,7 +9,7 @@
     <br>
     <br>
     &middot;
-    <b>NotesTeX v2.0</b>
+    <b>NotesTeX v2.1</b>
     &middot;
     <br>
     &middot; 
@@ -19,6 +19,7 @@
 </p>
 
 ## Table of contents
+- [Update](#update)
 - [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,6 +27,11 @@
 - [License](#license)
 - [Version and Contact](#version-and-contact) 
 
+## Update
+**28/04/2018** 
+1. Changed the geometry package conditions to be more flexible.
+2. Devoted a subsection to alternative language integration in [NotesTeX.pdf](NoTeX/NotesTeX.pdf), specifically Persian.
+3. Discussed an issue with the ```twoside``` option.
 
 ## Preview
 | ```Jhep``` Formatting | Table of Contents |
@@ -72,15 +78,27 @@ Here is an example of a test page:
 \end{document}
 ```
 
+For right to left flowing languages, please add the following package and [Persian font](https://fontlibrary.org/en/font/xb-niloofar) just before you start the document.
+
+```latex
+\usepackage{xepersian}
+\settextfont{XB Niloofar}
+\setlatintextfont{Times New Roman}
+
+\begin{document}
+ ...
+```
+
+
 ## Documentation
 All the documentation of this package is given in [NotesTeX.pdf](NoTeX/NotesTeX.pdf) and if you have any questions feel free to contact me.
 
 ## License
-This material is subject ot the [LaTeX Project Public License](LICENSE).
+This material is subject to the [LaTeX Project Public License](LICENSE).
 
 ## Version and Contact
 
-> NotesTeX v2.0.  
+> NotesTeX v2.1.  
 > Created by Aditya Dhumuntarao.  
-> Date: September 21, 2017.  
+> Date: 28 April, 2018.  
 > E-mail comments and suggestions to adhumunt@gmail.com.  

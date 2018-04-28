@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_3) (preloaded format=pdflatex 2018.4.26)  28 APR 2018 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/MacPorts 2017_3) (preloaded format=pdflatex 2018.4.26)  28 APR 2018 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2293,25 +2293,25 @@ $[]$
 
 [8]
 Package marginnote Info: Margin note 11.1 is on absolute page 11
-(marginnote)              on input line 402.
-Package marginnote Info: right page because not two side mode on input line 402
+(marginnote)              on input line 404.
+Package marginnote Info: right page because not two side mode on input line 404
 .
 Package marginnote Info: xpos seems to be 30.71661pt,
-(marginnote)             \marginnoterightadjust ignored on input line 402.
- [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
+(marginnote)             \marginnoterightadjust ignored on input line 404.
+ [9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (./NotesTeX.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
 Package rerunfilecheck Info: File `NotesTeX.out' has not changed.
-(rerunfilecheck)             Checksum: 53ED2692B76EB236B64F048EB54192E8;1147.
+(rerunfilecheck)             Checksum: 19FD05360C1A1DC3088ACE71BECF1A67;1231.
  ) 
 Here is how much of TeX's memory you used:
- 32536 strings out of 494099
- 628423 string characters out of 6155351
+ 32548 strings out of 494099
+ 628616 string characters out of 6155351
  823748 words of memory out of 5000000
- 35335 multiletter control sequences out of 15000+600000
+ 35344 multiletter control sequences out of 15000+600000
  156114 words of font info for 130 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  65i,15n,95p,10476b,963s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2336,9 +2336,9 @@ e/fonts/type1/public/lm/lmtcsc10.pfb></opt/local/share/texmf-texlive/fonts/type
 tt10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/lm/lmtt8.pfb></opt/
 local/share/texmf-texlive/fonts/type1/public/lm/lmtti10.pfb></opt/local/share/t
 exmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on NotesTeX.pdf (11 pages, 549504 bytes).
+Output written on NotesTeX.pdf (12 pages, 554516 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

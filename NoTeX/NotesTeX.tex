@@ -1,5 +1,5 @@
 \documentclass[10pt]{article}
-%\pdfoutput=1
+\pdfoutput=1
 \usepackage{NotesTeX,lipsum}
 %\usepackage{showframe}
 
@@ -396,7 +396,9 @@ University of Minnesota
 	\begin{remark}
 		\textbf{Also, please note \texttt{marginnote}, or \texttt{sidenotes} cannot be used in this environment.} Footnotes, on the other hand, can be used but are really ugly.
 	\end{remark}
-	
+	\begin{remark}
+		If the \texttt{twoside} option is enabled in the \texttt{documentclass} header, then the \texttt{fullpage} is known to bleed out beyond the margin.
+	\end{remark}
 	\newpage
 
 	\part{Advanced Page Formatting}
@@ -431,5 +433,35 @@ University of Minnesota
 	}%
 	\end{verbatim}
 	The header style is set so that it spans the width of the entire page as opposed to just the \texttt{$\backslash$textwidth} through the line \texttt{$\backslash$fancyheadoffset[rh]\{$\backslash$myoddoffset\}}. The \texttt{$\backslash$sectionmark} and \texttt{$\backslash$subsectionmark} are set up so that the \texttt{section} appears on the left and \texttt{subsections} appear on the right along with the page number, and this is given in the last two lines of code.
+
+
+	\section{Alternative Language Integration: Persian}
+	For languages which flow from right to left, such as Persian, we have developed a way\sn{We are still exploring issues with integration of Persian.} to use \textit{NotesTeX} and \texttt{xePersian}. A complied example can be found in the Persian folder.
+	\begin{remark}
+		This only works with the XeLaTeX engine.
+	\end{remark}
+	\begin{remark}
+		We have only tested the \href{https://fontlibrary.org/en/font/xb-niloofar}{XB Niloofar} font. In principle, any Persian font could work.
+	\end{remark}
+	\begin{remark}
+		One must load the \texttt{xePersian} package just before \texttt{begin\{document\}}.
+	\end{remark}
+	\noindent The \texttt{twoside} option must be enabled in the \texttt{documentclass}. A minimal working example is given below.
+
+	\begin{verbatim}
+	\documentclass[10pt,twoside]{article}
+
+	\usepackage{lipsum}
+	\usepackage{NoTeX_Persian}
+
+	\usepackage{xepersian}
+	\settextfont{XB Niloofar}
+	\setlatintextfont{Times New Roman}
+
+	\begin{document}
+	...
+	\end{verbatim}
+	As we have noted before, the \texttt{fullpage} environment will fail here since it is incompatible with the \texttt{twoside} option. Also the title page is shifted by the \texttt{twoside} option, see \href{https://tex.stackexchange.com/questions/57158/centered-title-page-in-twoside-report}{here} for a workaround. However, the \texttt{sidenote} and \texttt{marginnote} packages work well with the \texttt{twoside} option. 
+
 
 \end{document}

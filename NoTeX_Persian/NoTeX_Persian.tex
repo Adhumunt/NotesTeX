@@ -1,0 +1,53 @@
+\documentclass[10pt,twoside]{article}
+
+\usepackage{lipsum}
+\usepackage{NoTeX_Persian}
+
+\title{\begin{center}{\Huge \textit{NotesTeX}}\\{{\itshape An All-In-One Notes Package For Students}}\end{center}}
+\author{Aditya Dhumuntarao\footnote{\href{https://geodesick.com/}{\textit{My Personal Website}}}}
+
+
+\usepackage{xepersian}
+\settextfont{XB Niloofar}
+\setlatintextfont{Times New Roman}
+
+\begin{document}
+
+\pagestyle{fancynotes}
+\noindent من این همه را خودم نوشته ام و این یکی را می خواهم به صورت امتحانی در زیر با فونت 
+دیگری بنویسم 
+
+\section{پروژه‌ی خوب}
+\par
+تعریف یک پروژه‌ی خوب اینجا آمده است، این پروژه‌ی خوب خیلی خوب است. \sn{تعریف یک پروژه‌ی خوب اینجا آمده است، این پروژه‌ی خوب خیلی خوب است.
+	خیلی‌ها دوست دارند پروژه‌هایشان با نرم‌افزارهای متن باز تولید شود.}
+
+خیلی‌ها دوست دارند پروژه‌هایشان با نرم‌افزارهای متن باز تولید شود.
+
+\subsection{زیر تیتر پروژه‌ی خوب}
+\par
+.پروژه‌ی خوب توسط تدریسیاران خوب تولید می‌شود
+
+\begin{align}
+\begin{split}
+(x+y)^3 &= (x+y)^2(x+y)\\
+&=(x^2+2xy+y^2)(x+y)\\
+&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
+&=x^3+3x^2y+3xy^2+y^3
+\end{split}					
+\end{align}
+
+\begin{latin}
+	It is still possible to write in latin using the options provided by \texttt{xePersian}.
+
+	\begin{proof}
+	\lipsum[1]
+	\end{proof}
+\end{latin}
+
+\begin{proof}
+	تعریف یک پروژه‌ی خوب اینجا آمده است، این پروژه‌ی خوب خیلی خوب است.
+	خیلی‌ها دوست دارند پروژه‌هایشان با نرم‌افزارهای متن باز تولید شود.
+\end{proof}
+
+\end{document}

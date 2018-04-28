@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/MacPorts 2017_3) (preloaded format=xelatex 2018.4.26)  28 APR 2018 17:24
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/MacPorts 2017_3) (preloaded format=xelatex 2018.4.26)  28 APR 2018 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**test.tex
-(./test.tex
+**NoTeX_Persian.tex
+(./NoTeX_Persian.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 48 language(s) loaded.
 (/opt/local/share/texmf-texlive/tex/latex/base/article.cls
@@ -26,9 +26,13 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 (/opt/local/share/texmf-texlive/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count87
-) (./NotesTeX.sty
-Package: NotesTeX 2017/03/21 r1
+)
+(./NoTeX_Persian.sty
 
+LaTeX Warning: You have requested package `NoTeX_Persian',
+               but the package provides `NotesTeX'.
+
+Package: NotesTeX 2017/03/21 r1
 (/opt/local/share/texmf-texlive/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2017/04/22 v1.2b non floating margin notes for LaTeX
 \c@mn@abspage=\count88
@@ -2609,8 +2613,8 @@ lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmromancaps1
 .................................................
 LaTeX Info: Redefining \latinfont on input line 12.
 
-(./test.aux)
-\openout1 = `test.aux'.
+(./NoTeX_Persian.aux)
+\openout1 = `NoTeX_Persian.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -2690,77 +2694,77 @@ LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
 
-(./test.out) (./test.out)
+(./NoTeX_Persian.out) (./NoTeX_Persian.out)
 \@outlinefile=\write6
-\openout6 = `test.out'.
+\openout6 = `NoTeX_Persian.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 29.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 23.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 29.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 23.
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 23.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 29.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 23.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 29.
+(Font)              <10> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 29.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 29.
+(Font)              <5> on input line 23.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 23.
 
 (/opt/local/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
 
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/XBNiloofar(0)/m/sc' undefined
-(Font)              using `TU/XBNiloofar(0)/m/n' instead on input line 54.
+(Font)              using `TU/XBNiloofar(0)/m/n' instead on input line 53.
 
 [1
 
-] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
- (./test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+ (./NoTeX_Persian.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 53.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 38389 strings out of 494199
- 758689 string characters out of 6157219
- 1015095 words of memory out of 5000000
- 41654 multiletter control sequences out of 15000+600000
- 31421 words of font info for 76 fonts, out of 8000000 for 9000
+ 38388 strings out of 494199
+ 758861 string characters out of 6157219
+ 1015118 words of memory out of 5000000
+ 41652 multiletter control sequences out of 15000+600000
+ 31429 words of font info for 77 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 65i,14n,95p,10472b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,14n,95p,10481b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on test.xdv (2 pages, 42248 bytes).
+Output written on NoTeX_Persian.xdv (1 page, 22404 bytes).

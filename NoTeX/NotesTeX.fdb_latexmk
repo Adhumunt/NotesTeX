@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1524951599 "NotesTeX.tex" "NotesTeX.pdf" "NotesTeX" 1524951600
+["pdflatex"] 1524954737 "NotesTeX.tex" "NotesTeX.pdf" "NotesTeX" 1524954738
   "/opt/local/etc/texmf/texmf.cnf" 1524762046 30503 22e7782d2cb300dab72f72979bf12c21 ""
   "/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-ec.enc" 1467164575 2375 baa924870cfb487815765f9094cf3728 ""
   "/opt/local/share/texmf-texlive/fonts/enc/dvips/lm/lm-mathsy.enc" 1467164575 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -260,14 +260,14 @@
   "/opt/local/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty" 1438958880 325 2bcd023400636339210573e2b3ee298b ""
   "/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map" 1524940289 2222180 c34c108425ec0d33100d1400c1e5a414 ""
   "/opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt" 1524770010 3522033 103e68d4749bdae723b92f827efb546b ""
-  "NotesTeX.aux" 1524951600 4245 69077eb52e23b93d16696412f9bc71cf ""
-  "NotesTeX.out" 1524951600 1147 53ed2692b76eb236b64f048eb54192e8 ""
+  "NotesTeX.aux" 1524954738 4362 2885d65c7357fec106fa493c4e01aeb8 ""
+  "NotesTeX.out" 1524954738 1231 19fd05360c1a1dc3088ace71becf1a67 ""
   "NotesTeX.sty" 1524951596 23381 deaf72ae485794322de6c3aea1d27d54 ""
-  "NotesTeX.tex" 1524951510 24778 8e105aa989a0b7ff26245aca4de782f8 ""
-  "NotesTeX.toc" 1524951600 1530 0b9807b6134681484f7f039891d59e81 ""
+  "NotesTeX.tex" 1524954736 26413 71accf3951ee87bfb38c930278d32f7d ""
+  "NotesTeX.toc" 1524954738 1629 8179ded138289e306682059d0955215f ""
   (generated)
-  "NotesTeX.pdf"
-  "NotesTeX.aux"
   "NotesTeX.toc"
   "NotesTeX.out"
+  "NotesTeX.pdf"
+  "NotesTeX.aux"
   "NotesTeX.log"
