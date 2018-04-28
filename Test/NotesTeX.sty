@@ -80,7 +80,7 @@
 
 \fancypagestyle{fancynotes}{%
   \fancyhf{}%
-  \fancyheadoffset[rh]{\myoddoffset}%
+  \fancyheadoffset[leh,roh]{\myoddoffset}%
   \renewcommand{\headrulewidth}{0pt}%
   \fancyhead[L]{\textsc{\leftmark}}%
   \fancyhead[R]{\footnotesize \textit{\rightmark}~~~~ \thepage}%
@@ -689,32 +689,26 @@
 
 %headings style
 
-
-\newcommand\psection{\@startsection{section}{1}{\z@}%
-                                   {-3.5ex \@plus -1.3ex \@minus -.7ex}%
-                                   {2.3ex \@plus .4ex \@minus .4ex}%
-                                   {\ }}
-
 \renewcommand\section{\@startsection{section}{1}{\z@}%
                                    {-3.5ex \@plus -1.3ex \@minus -.7ex}%
                                    {2.3ex \@plus .4ex \@minus .4ex}%
-                                   {\sffamily\Large\bfseries}}
+                                   {\Large\bfseries}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
                                    {-2.3ex \@plus -1ex \@minus -.5ex}%
                                    {1.2ex \@plus .3ex \@minus .3ex}%
-                                   {\sffamily\large\bfseries}}
+                                   {\large\bfseries}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
                                    {-2.3ex \@plus -1ex \@minus -.5ex}%
                                    {1.0ex \@plus .2ex \@minus .2ex}%
-                                   {\sffamily\normalsize\bfseries}}
+                                   {\normalsize\bfseries}}
 \renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
                                    {1.75ex \@plus1ex \@minus.2ex}%
                                    {-1em}%
-                                   {\sffamily\normalsize\bfseries}}
+                                   {\normalsize\bfseries}}
 \renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
                                    {1.75ex \@plus1ex \@minus .2ex}%
                                    {-1em}%
-                                   {\sffamily\normalsize\bfseries}}
+                                   {\normalsize\bfseries}}
 
 
 %Caption of figure and table

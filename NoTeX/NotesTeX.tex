@@ -1,7 +1,6 @@
 \documentclass[10pt]{article}
-\pdfoutput=1 
+%\pdfoutput=1
 \usepackage{NotesTeX,lipsum}
-
 %\usepackage{showframe}
 
 \title{\begin{center}{\Huge \textit{NotesTeX}}\\{{\itshape An All-In-One Notes Package For Students}}\end{center}}
@@ -183,12 +182,12 @@ University of Minnesota
 	% ----------------------------------------------------------------------
 	...
 	\end{verbatim}
-	If one has their own macros,\sidenote{\footnotesize Most people have their own shortcuts for commonly used mathematics, such as derivatives or integrals. For those looking for some physics shortcuts, the \textbf{supremely excellent} physics package (automatically included in \textit{NotesTeX}) has possible everything that one can imagine.} then simply add it under this area. 
+	If one has their own macros,\sidenote{\footnotesize Most people have their own shortcuts for commonly used mathematics, such as derivatives or integrals. For those looking for physics shortcuts, the {excellent} \texttt{physics} package (automatically included in \textit{NotesTeX}) has possible everything that one can imagine.} then simply add it under this area. 
 
 	\subsection{Available Shortcuts}
 	To keep things light, \textit{NotesTeX} offers the following simplifications/shortcuts to the mathematics dictionary.
 	\begin{enumerate}
-		\item Vector Bold Math: The shortcut \texttt{\{$\backslash$bf $\cdot$\}} $\longrightarrow$ \texttt{$\backslash$bf$\cdot$} creates boldface text. For example, \texttt{\{$\backslash$bf a\}} becomes \texttt{$\backslash$bfa} producing the output \bfa. This works for both upper and lower case alphabet.
+		\item Vector Bold Math: The shortcut \texttt{\{$\backslash$bf $\cdot$\}} $\longrightarrow$ \texttt{$\backslash$bf$\cdot$}\ creates boldface text. For example, \texttt{\{$\backslash$bf a\}} becomes \texttt{$\backslash$bfa} producing the output \bfa. This works for both upper and lower case alphabet.
 		\item \texttt{Mathfrak:} The \texttt{$\backslash$mathfrak} environment is quite similar to the Vector Bold Math in the shortcut argument, \texttt{$\backslash$mathfrak\{$\cdot$\}} $\longrightarrow$ \texttt{$\backslash$mf$\cdot$}. This works for both upper and lower case producing
 		\begin{center}
 			$\mfa\mfb\mfc\mfd\mfe\mff\mfg\mfh\mfi\mfj\mfk\mfl\mfm\mfn\mfo\mfp\mfq\mfr\mfs\mft\mfu\mfv\mfw\mfx\mfy\mfz$\\
@@ -319,7 +318,7 @@ University of Minnesota
 	There is one issue with this however.\marginnote{Not a major one but frustrating nonetheless.} Since we are using a \texttt{tcolorbox}, this proof environment is incompatible with \texttt{$\backslash$sn} and \texttt{$\backslash$sidenote}, as it results in a \textbf{Float(s) Error}. However, this environment is compatible with \texttt{$\backslash$mn} and \texttt{$\backslash$marginnote} thankfully.\mn{As one can see right here.}
 
 
-	The \texttt{breakable} should allow the \texttt{proof} environment to span multiple pages. If one wishes to change the color, simply modify the line which states \texttt{borderline west=\{1pt\}\{0pt\}\{blue\}}. The first numeric value dictates the width of the line, the second dictates how close it is away from the \textit{left} margin, while the last argument obviously dictates the color. This code could also be used to change any of the other \texttt{amsthm} environments.
+	The \texttt{breakable} should allow the \texttt{proof} environment to span multiple pages. If one wishes to change the color, simply modify the line which states \texttt{borderline west=\{1pt\}} \texttt{\{0pt\}\{blue\}}. The first numeric value dictates the width of the line, the second dictates how close it is away from the \textit{left} margin, while the last argument obviously dictates the color. This code could also be used to change any of the other \texttt{amsthm} environments.
 
 	% subsubsection tcolorbox environments_and_known_issues (end)
 
@@ -407,11 +406,11 @@ University of Minnesota
 	\begin{verbatim}
 		\geometry{paperheight=845pt,paperwidth=597pt,
           marginparsep=.02\paperwidth,marginparwidth=.23\paperwidth,
-          hoffset=-1in, voffset=-1in, headheight=.02\paperheight,
+          inner=.05\paperwidth,voffset=-1in,headheight=.02\paperheight,
           headsep=.03\paperheight,footskip=20pt,
-          textheight=.84\paperheight,textwidth=.64\paperwidth}.
+          textheight=.84\paperheight,textwidth=.64\paperwidth}
 	\end{verbatim}
-	Ignoring most of the arguments, the \texttt{$\backslash$paperheight} and \texttt{$\backslash$paperwidth} are set to be the standard $8\times11$ inches but in \texttt{pt} format instead. All other options, with the exception of \texttt{$\backslash$hoffset} and \texttt{$\backslash$voffset}, inherit fractions of \texttt{$\backslash$paperheight} and \texttt{$\backslash$paperwidth}, the most important being \texttt{$\backslash$marginparwidth}. Increasing \texttt{$\backslash$marginparwidth} causes the margin to bleed off of the right side of the page. In order to increase, one \textbf{must} decrease the \texttt{$\backslash$textwidth} accordingly.
+	Ignoring most of the arguments, the \texttt{$\backslash$paperheight} and \texttt{$\backslash$paperwidth} are set to be the standard $8\times11$ inches but in \texttt{pt} format instead. All other options, with the exception of \texttt{$\backslash$voffset}, inherit fractions of \texttt{$\backslash$paperheight} and \texttt{$\backslash$paperwidth}, the most important being \texttt{$\backslash$marginparwidth}. Increasing \texttt{$\backslash$marginparwidth} causes the margin to bleed off of the right side of the page. In order to increase, one \textbf{must} decrease the \texttt{$\backslash$textwidth} accordingly.
 
 
 	\section{\texttt{Fancyhdr} Layout}
@@ -431,11 +430,6 @@ University of Minnesota
 	  \fancyhead[R]{\footnotesize \textit{\rightmark}~~~~ \thepage}%
 	}%
 	\end{verbatim}
-	The header style is set so that it spans the width of the entire page as opposed to just the \texttt{$\backslash$textwidth} through the line \texttt{$\backslash$fancyheadoffset[rh]\{$\backslash$myoddoffset\}}. The \texttt{$\backslash$sectionmark} and \texttt{$\backslash$subsectionmark} are set up so that the \texttt{section} appears on the left and all \texttt{subsections} appear on the right along with the page number, and this is given in the last two lines of code.
-
-
-
-
-
+	The header style is set so that it spans the width of the entire page as opposed to just the \texttt{$\backslash$textwidth} through the line \texttt{$\backslash$fancyheadoffset[rh]\{$\backslash$myoddoffset\}}. The \texttt{$\backslash$sectionmark} and \texttt{$\backslash$subsectionmark} are set up so that the \texttt{section} appears on the left and \texttt{subsections} appear on the right along with the page number, and this is given in the last two lines of code.
 
 \end{document}
