@@ -88,7 +88,7 @@ For right to left flowing languages, please add the following package and [Persi
 \begin{document}
  ...
 ```
-| Image Integration |
+| Persian Integration |
 |:---:|
 | [![Preview](https://raw.githubusercontent.com/Adhumunt/NotesTeX/master/Sample/NoTeX_Persian.png)](https://raw.githubusercontent.com/Adhumunt/NotesTeX/master/Sample/NoTeX_Persian.png) |
 
