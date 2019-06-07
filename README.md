@@ -1,3 +1,6 @@
+# Announcement
+NotesTeX v3.0 will be here in the upcoming month. v3.0 will include expanded language support, a redesign of definition, theorem, and other mathematics environments, removal of deprecated features, and support on additional latex engines, such as, but not limited to, xetex. This major overhaul will be pushed out to CTAN by the end of the next month.
+
 <p align="center">
 
   <h1 align="center"><i>NotesTeX</i></h1>
