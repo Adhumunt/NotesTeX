@@ -1,5 +1,5 @@
 # Announcement
-NotesTeX v3.0 will be here by the end of July, 2019. v3.0 will include expanded language support, a redesign of mathematical environments (e.g., theorems, definitions, and examples), removal of deprecated features, and support on additional latex engines, such as, but not limited to, xetex. This major overhaul will be pushed out to CTAN by the end of September after beta testing and feedback.
+NotesTeX v3.0 will be here by the end of August, 2019. v3.0 will include expanded language support, a redesign of mathematical environments (e.g., theorems, definitions, and examples), removal of deprecated features, and support on additional latex engines, such as, but not limited to, xetex. This major overhaul will be pushed out to CTAN by the end of September after beta testing and feedback.
 
 <p align="center">
 
