@@ -1,8 +1,3 @@
- <h1 align="center"><i>Announcement</i></h1>
-
-NotesTeX v3.0 is out after being in development for longer than I am proud to admit. If you'd like to showcase how your notes look like, send a PNG over to my email with your Github username and I'll feature it below. Thanks for your interest over the years
-
-
   <h1 align="center"><i>NotesTeX</i></h1>
 
   <p align="center">
