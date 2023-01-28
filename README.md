@@ -54,9 +54,9 @@
 
 Installing just requires the following steps:
 
-1. **Download** the [zip archive](NotesTeX.zip).
-2. **Build** the NotesTeX.tex file. This compile should work without a problem, and it should look like the pdf attached below.
-3. **Move** the NotesTeX.sty file where ever you need it, and let your new notes file call to it as provided in the example below.
+1. **Download** the [zip archive](NotesTeXV3.zip).
+2. **Build** the NotesTeXV3.tex file. This compile should work without a problem, and it should look like the pdf attached below.
+3. **Move** the NotesTeXV3.sty file where ever you need it, and let your new notes file call to it as provided in the example below.
 
 ## Usage
 
@@ -97,7 +97,7 @@ For right to left flowing languages, please add the following package and your n
 
 ## Documentation
 
-All the documentation of this package is given in [NotesTeX.pdf](NoTeX/NotesTeX.pdf) and if you have any questions feel free to contact me.
+All the documentation of this package is given in [NotesTeXV3.pdf](NotesTeXV3/NotesTeX.pdf) and if you have any questions feel free to contact me.
 
 ## License
 
