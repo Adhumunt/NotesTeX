@@ -55,7 +55,7 @@
 Installing just requires the following steps:
 
 1. **Download** the [zip archive](NotesTeXV3.zip).
-2. **Build** the NotesTeXV3.tex file. This compile should work without a problem, and it should look like the pdf attached below.
+2. **Build** the NotesTeX.tex file. This compile should work without a problem, and it should look like the pdf attached below.
 3. **Move** the NotesTeXV3.sty file where ever you need it, and let your new notes file call to it as provided in the example below.
 
 ## Usage
